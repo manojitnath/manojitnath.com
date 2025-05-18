@@ -1,4 +1,4 @@
-# manojitnath.com — Personal Cybersecurity Blog - Currently WIP
+# manojitnath.com — Personal Cybersecurity Blog - WIP
 
 This is the source code for [manojitnath.com](https://manojitnath.com), my personal blog where I share notes, tutorials, hands-on labs, and write technical articles about topics I find interesting.
 
