@@ -1,8 +1,8 @@
 +++
-date = '2025-04-28T12:04:42+05:30'
+date = '2025-05-17'
 draft = false
 title = 'Deploy Your First Bun App — Railway & Fly.io'
-description = "How to deploy a Bun application? Here is how to deploy to production using Fly.io and Railway."
+description = "Here is how to deploy to production using Fly.io and Railway."
 categories = ["GRC", "ISO 27001"]
 +++
 

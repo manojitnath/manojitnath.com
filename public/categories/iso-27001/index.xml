@@ -6,12 +6,12 @@
     <description>Recent content in ISO 27001 on Manojit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Apr 2025 12:04:42 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/iso-27001/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deploy Your First Bun App — Railway &amp; Fly.io</title>
       <link>http://localhost:1313/blog/2-second-post/</link>
-      <pubDate>Mon, 28 Apr 2025 12:04:42 +0530</pubDate>
+      <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/2-second-post/</guid>
       <description>&lt;p&gt;Let’s say you just built a small REST API using Bun. After testing it thoroughly, the next step is making it available to the public. But how do you do that? There are a lot of deployment options out there where as long as you have a Dockerfile you can be up and running pretty fast but what I want to focus on in the article is starting from a place where maybe this is your first time deploying an app.&lt;/p&gt;</description>
     </item>

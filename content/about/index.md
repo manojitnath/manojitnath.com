@@ -5,7 +5,7 @@ description: "10+ years of experience working as a cybersecurity professional"
 
 Hi, I'm Manojit. I've spent the last 10 years in cybersecurity helping organizations manage risk, maintain compliance, and strengthen their security posture. Currently, I work as a Cyber Risk and Strategy Consultant at Deloitte USI.
 
-This site is where I document my journey. I share practical notes from my study and research, write technical articles about topics I find interesting, and publish hands-on cybersecurity labs and tutorials to help others on a similar path.
+This site is where I document my journey. I share notes from my study, research and personal life. Write technical articles about topics I find interesting, and publish hands-on cybersecurity labs and tutorials to help others on a similar path.
 
 Outside of work, I live a simple life. I enjoy traveling (something I definitely need to do more of), I like exploring new ideas and technologies, playing guitar now and then, and spending quality time with my wonderful wife and daughter.
 

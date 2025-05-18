@@ -1,8 +1,8 @@
 +++
-date = '2025-04-28T12:04:42+05:30'
+date = '2025-05-14'
 draft = false
-title = 'The Latest Threat Modeling Blogs & Software Security Tips'
-description = "From software security to threat modeling to compliance & risk management frameworks (and everything inbetween)."
+title = 'Threat Modeling & Software Security Tips'
+description = "From software security to threat modeling to compliance"
 categories = ["Threat Modeling"]
 +++
 
