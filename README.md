@@ -17,7 +17,7 @@ This blog takes inspiration from:
 - [Astro Paper](https://github.com/satnaing/astro-paper) by [@satnaing](https://github.com/satnaing)
 - [Tania Rascia](https://www.taniarascia.com/)
 
-The Hugo code has been custom-written and tailored to my preferences. This repository is not intended to be used as a theme or starter template However, I encourage others to take inspiration from this project and build their own personal blog :smiley:
+The Hugo code has been custom-written and tailored to my preferences. This repository is not intended to be used as a theme or starter template. However, I encourage others to take inspiration from this project and build their own personal blog :smiley:
 
 ---
 
