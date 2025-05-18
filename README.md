@@ -30,4 +30,4 @@ The Hugo code has been custom-written and tailored to my preferences. This repos
 
 ## License
 
-This project is open source and available under the [MIT License](https://github.com/taniarascia/taniarascia.com/blob/master/LICENSE).
+This project is open source and available under the [MIT License](https://github.com/manojitnath/manojitnath.com/blob/main/LICENSE).
