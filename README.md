@@ -31,7 +31,3 @@ However, I encourage others to take inspiration from this project and build thei
 - [LinkedIN](https://www.linkedin.com/in/manojitnath/)
 
 ---
-
-## 📄 License
-
-This project is open source under the [MIT License](LICENSE).
