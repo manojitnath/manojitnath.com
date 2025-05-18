@@ -1,0 +1,35 @@
+{{/* layouts/_default/list.html */}}
+{{ define "main" }}
+<div class="list">
+  <!-- section to show _index.md title and description -->
+  <div class="pageHeader">
+    <h1 class="siteTitlePage">{{ .Title }}</h1>
+    {{ with .Params.description }}<p class="pageDescription">{{.}}</p>{{ end }}
+    
+    {{/* --- Check if NOT categories page before showing link --- */}}
+    {{ $isCategoriesPage := eq .Permalink "/categories/" }} {{/* Adjust path if needed */}}
+    {{ if not $isCategoriesPage }}
+      <p class="view-all-topics">
+        <a href="/categories/">View all Topics</a> {{/* Ensure trailing slash if needed */}}
+      </p>
+    {{ end }}
+    {{/* --- End check --- */}}
+    <div id="search"></div>
+                    <script>
+                        window.addEventListener('DOMContentLoaded', (event) => {
+                            new PagefindUI({ element: "#search", showSubResults: true });
+                        });
+                    </script>  
+  </div>
+
+  {{/* Filter pages: Only include items whose 'Section' is 'blog' or 'notes' or 'projects' */}}
+  {{ $pagesToList := where .Paginator.Pages "Section" "in" (slice "blog" "notes") }}
+
+  {{/* Loop over the filtered list */}}
+  {{ range $pagesToList }}
+    {{/* --- REPLACE the original HTML block with this partial call --- */}}
+    {{ partial "listItemCard.html" . }}
+    {{/* --- End replacement --- */}}
+  {{ end }} {{/* End range loop */}}
+</div>
+{{ end }} {{/* End define main */}}

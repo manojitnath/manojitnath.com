@@ -1,0 +1,19 @@
+{{/* layouts/_default/_markup/render-link.html */}}
+{{/* Determine if the link destination starts with http or https */}}
+{{ $isExternal := or (strings.HasPrefix .Destination "http://") (strings.HasPrefix .Destination "https://") }}
+
+<a href="{{ .Destination | safeURL }}"
+   {{/* If it's an external link, add target and rel attributes */}}
+   {{ if $isExternal }}
+     target="_blank" rel="noopener noreferrer"
+   {{ end }}
+   {{/* Add the title attribute if it exists in the Markdown link */}}
+   {{ with .Title }}
+     title="{{ . }}"
+   {{ end }}
+>
+  {{/* Output the link text (potentially processing inner Markdown/HTML) */}}
+  {{ .Text | safeHTML }}
+</a>
+
+{{/* Prevent Hugo's default link rendering by ending the template */}}

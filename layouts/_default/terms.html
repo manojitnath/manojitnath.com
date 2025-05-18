@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="list">
+    <div class="pageHeader">
+        <h1 class="siteTitlePage">{{ .Title | default (humanize .Data.Plural) }}</h1>
+        <p class="pageDescription">Select topic to read related Articles</p>
+    </div>
+    <div class="categoryItemsWrapper">
+        <!-- Loop through categories -->
+        {{ range .Data.Terms.Alphabetical }}
+            <a href="{{ .Page.Permalink }}" class="listItemLink"> 
+                <div class="categoryDiv"> 
+                    <span class="categoryPageTitle">
+                        {{ .Page.Title }} 
+                    </span>
+                    <span class="termItemCount">{{ .Count }}</span>
+                </div>
+            </a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,31 @@
+{{/* layouts/partials/listItemCard.html */}}
+{{/* Expects the context (.) to be a single Page object */}}
+
+<div class="listItem">
+  <div class="listItemTexts">
+    <div class="listItemDetail">
+      <div>
+        {{/*
+        <time class="listItemDate">
+           Assuming .Site.Params.dateFormat is set in your config
+          {{ dateFormat .Site.Params.dateFormat .Date}}
+        </time> */}}
+        <h1 class="listItemTitle">
+          <a href="{{.Permalink}}">{{.Title}}</a>
+        </h1>
+        {{/* Use 'with' to safely handle missing descriptions */}}
+        {{ with .Params.description }}
+          <p class="listItemDesc">{{.}}</p>
+        {{ end }}
+      </div>
+    </div>
+    <div class="listItemCategories">
+      {{/* Use 'with' to safely handle posts with no categories */}}
+      {{ with (.GetTerms "categories") }}
+        {{ range . }}
+          <a class="listItemCategory" href="{{ .Permalink }}">{{ .Name }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</div>

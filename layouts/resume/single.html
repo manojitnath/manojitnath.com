@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="single">
+    <div class="singleHead">
+        <div class="singleHeadTexts">
+            <div class="resume-page-wrapper">
+                <h1 class="siteTitlePage">{{ .Title }}</h1>
+
+                {{/* --- THIS IS WHERE content/about/index.md CONTENT GOES --- */}}
+                <div class="singleBottom">
+                    <div class="singleContent">{{ .Content }}</div>
+                </div>
+                {{/* --- END CONTENT PLACEMENT --- */}}
+
+                {{/* Other custom about page elements... */}}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,16 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Manojit'
+
+[markup.highlight]
+    noClasses = false
+
+[Params]
+dateFormat = "Jan 2, 2006"
+
+# hugo.toml or config.toml
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3    # Include headings up to H3
+    ordered = false # Use <ul> instead of <ol>
+    startLevel = 2  # Start with H2 headings
