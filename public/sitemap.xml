@@ -8,10 +8,7 @@
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/grc/</loc>
-    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/1-how-to-do-nist-csf-2.0-maturity-assessment/</loc>
+    <loc>http://localhost:1313/blog/nist-csf-2.0-maturity-assessment/</loc>
     <lastmod>2025-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/nist-csf/</loc>
@@ -20,25 +17,19 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/2-second-post/</loc>
-    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/iso-27001/</loc>
-    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/threat-modeling/</loc>
+    <loc>http://localhost:1313/categories/markdown/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/3-third-post/</loc>
+    <loc>http://localhost:1313/blog/markdown-cheat-sheet/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/notes/</loc>
     <lastmod>2025-04-28T12:04:42+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/security-engineering/</loc>
+    <loc>http://localhost:1313/notes/tryhackme-pre-security/</loc>
     <lastmod>2025-04-28T12:04:42+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/1-how-to-do-nist-csf-2.0-maturity-assessment/</loc>
+    <loc>http://localhost:1313/categories/tryhackme/</loc>
     <lastmod>2025-04-28T12:04:42+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/project/</loc>

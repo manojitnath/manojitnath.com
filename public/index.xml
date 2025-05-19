@@ -10,30 +10,23 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to do NIST CSF 2.0 Maturity Assessment</title>
-      <link>http://localhost:1313/blog/1-how-to-do-nist-csf-2.0-maturity-assessment/</link>
+      <link>http://localhost:1313/blog/nist-csf-2.0-maturity-assessment/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/1-how-to-do-nist-csf-2.0-maturity-assessment/</guid>
+      <guid>http://localhost:1313/blog/nist-csf-2.0-maturity-assessment/</guid>
       <description>&lt;p&gt;Testing my first post!&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Deploy Your First Bun App — Railway &amp; Fly.io</title>
-      <link>http://localhost:1313/blog/2-second-post/</link>
-      <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2-second-post/</guid>
-      <description>&lt;p&gt;Let’s say you just built a small REST API using Bun. After testing it thoroughly, the next step is making it available to the public. But how do you do that? There are a lot of deployment options out there where as long as you have a Dockerfile you can be up and running pretty fast but what I want to focus on in the article is starting from a place where maybe this is your first time deploying an app.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Threat Modeling &amp; Software Security Tips</title>
-      <link>http://localhost:1313/blog/3-third-post/</link>
+      <title>Markdown Cheat Sheet</title>
+      <link>http://localhost:1313/blog/markdown-cheat-sheet/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/3-third-post/</guid>
+      <guid>http://localhost:1313/blog/markdown-cheat-sheet/</guid>
       <description>&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;&#xA;&lt;p&gt;This post showcases common Markdown syntax elements that should be rendered correctly by Hugo and styled by your theme.&lt;/p&gt;&#xA;&lt;p&gt;Markdown supports six levels of headings. The H1 is often generated from the &lt;code&gt;title&lt;/code&gt; in the front matter by the theme&amp;rsquo;s template, so content usually starts with H2.&lt;/p&gt;&#xA;&lt;h1 id=&#34;h1-heading-rarely-used-directly-in-content&#34;&gt;H1 Heading (Rarely used directly in content)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;h2-heading&#34;&gt;H2 Heading&lt;/h2&gt;&#xA;&lt;h3 id=&#34;h3-heading&#34;&gt;H3 Heading&lt;/h3&gt;&#xA;&lt;h4 id=&#34;h4-heading&#34;&gt;H4 Heading&lt;/h4&gt;&#xA;&lt;h5 id=&#34;h5-heading&#34;&gt;H5 Heading&lt;/h5&gt;&#xA;&lt;h6 id=&#34;h6-heading&#34;&gt;H6 Heading&lt;/h6&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;paragraphs-and-text&#34;&gt;Paragraphs and Text&lt;/h2&gt;&#xA;&lt;p&gt;This is a standard paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Try Hack Me - Cybersecurity Refresh</title>
-      <link>http://localhost:1313/notes/1-how-to-do-nist-csf-2.0-maturity-assessment/</link>
+      <link>http://localhost:1313/notes/tryhackme-pre-security/</link>
       <pubDate>Mon, 28 Apr 2025 12:04:42 +0530</pubDate>
-      <guid>http://localhost:1313/notes/1-how-to-do-nist-csf-2.0-maturity-assessment/</guid>
+      <guid>http://localhost:1313/notes/tryhackme-pre-security/</guid>
       <description>&lt;p&gt;Testing my first post!&lt;/p&gt;</description>
     </item>
     <item>
