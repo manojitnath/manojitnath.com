@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "About"
 description: "10+ years of experience working as a cybersecurity professional"
 ---
 
