@@ -2,36 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://manojitnath.com/blog/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://manojitnath.com/categories/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/markdown/</loc>
+    <loc>https://manojitnath.com/categories/markdown/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/markdown-cheat-sheet/</loc>
+    <loc>https://manojitnath.com/blog/markdown-cheat-sheet/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://manojitnath.com/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/</loc>
+    <loc>https://manojitnath.com/notes/</loc>
     <lastmod>2025-04-28T12:04:42+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/tryhackme-pre-security/</loc>
+    <loc>https://manojitnath.com/notes/tryhackme-pre-security/</loc>
     <lastmod>2025-04-28T12:04:42+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tryhackme/</loc>
+    <loc>https://manojitnath.com/categories/tryhackme/</loc>
     <lastmod>2025-04-28T12:04:42+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://manojitnath.com/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://manojitnath.com/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/resume/</loc>
+    <loc>https://manojitnath.com/resume/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://manojitnath.com/tags/</loc>
   </url>
 </urlset>
