@@ -82,7 +82,9 @@
     <div class="container">
       {{partial "navbar" . }}
       <!-- This is where the content of each page is inserted -->
+      <main>
       {{ block "main" . }}{{ end }}
+      </main>
       <!-- Including the footer partial -->
       {{ partial "footer" .}}
     </div>

@@ -125,7 +125,11 @@ a {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 0rem;
+}
+
+main {
+  flex: 1;
 }
 
 /* Navbar CSS Starts Here */

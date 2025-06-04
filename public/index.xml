@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to Manojit&#39;s Homepage on Manojit</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Welcome to Manojit&#39;s Homepage on Manojit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Cheat Sheet</title>
+      <link>http://localhost:1313/blog/markdown-cheat-sheet/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/markdown-cheat-sheet/</guid>
+      <description>&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;&#xA;&lt;p&gt;This post showcases common Markdown syntax elements that should be rendered correctly by Hugo and styled by your theme.&lt;/p&gt;&#xA;&lt;p&gt;Markdown supports six levels of headings. The H1 is often generated from the &lt;code&gt;title&lt;/code&gt; in the front matter by the theme&amp;rsquo;s template, so content usually starts with H2.&lt;/p&gt;&#xA;&lt;h1 id=&#34;h1-heading-rarely-used-directly-in-content&#34;&gt;H1 Heading (Rarely used directly in content)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;h2-heading&#34;&gt;H2 Heading&lt;/h2&gt;&#xA;&lt;h3 id=&#34;h3-heading&#34;&gt;H3 Heading&lt;/h3&gt;&#xA;&lt;h4 id=&#34;h4-heading&#34;&gt;H4 Heading&lt;/h4&gt;&#xA;&lt;h5 id=&#34;h5-heading&#34;&gt;H5 Heading&lt;/h5&gt;&#xA;&lt;h6 id=&#34;h6-heading&#34;&gt;H6 Heading&lt;/h6&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;paragraphs-and-text&#34;&gt;Paragraphs and Text&lt;/h2&gt;&#xA;&lt;p&gt;This is a standard paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Try Hack Me - Cybersecurity Refresh</title>
+      <link>http://localhost:1313/notes/tryhackme-pre-security/</link>
+      <pubDate>Mon, 28 Apr 2025 12:04:42 +0530</pubDate>
+      <guid>http://localhost:1313/notes/tryhackme-pre-security/</guid>
+      <description>&lt;p&gt;Testing my first post!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hi, I&amp;rsquo;m Manojit. I&amp;rsquo;ve spent the last 10 years in cybersecurity helping organizations manage risk, maintain compliance, and strengthen their security posture. Currently, I work as a Cyber Risk and Strategy Consultant at Deloitte USI.&lt;/p&gt;&#xA;&lt;p&gt;This site is where I document my journey. I share notes from my studies, research and personal reflections. Write technical articles on topics I find interesting, and publish hands-on cybersecurity labs and tutorials to help others on a similar path.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>resume</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &#xA;&#xA;&#xA;&#xA;&lt;a href=&#34;mailto:manojitnath.tech@gmail.com&#34;&#xA;   &#xA;   &#xA;   &#xA;   &#xA;&gt;&#xA;  &#xA;  manojitnath.tech@gmail.com&#xA;&lt;/a&gt;&#xA;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;LinkedIN&lt;/strong&gt;: &#xA;&#xA;&#xA;&#xA;&lt;a href=&#34;https://www.linkedin.com/in/manojitnath/&#34;&#xA;   &#xA;   &#xA;     target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&#xA;   &#xA;   &#xA;   &#xA;&gt;&#xA;  &#xA;  manojitnath&#xA;&lt;/a&gt;&#xA;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Download&lt;/strong&gt;: &#xA;&#xA;&#xA;&#xA;&lt;a href=&#34;https://drive.google.com/file/d/1y3tnQ1JCrdsET8GeOEHmO3KsT5xkgO8l/view?usp=sharing&#34;&#xA;   &#xA;   &#xA;     target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&#xA;   &#xA;   &#xA;   &#xA;&gt;&#xA;  &#xA;  Resume&#xA;&lt;/a&gt;&#xA;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;&#xA;&lt;h3 id=&#34;cyber-risk-consultant--deloitte&#34;&gt;Cyber Risk Consultant | Deloitte&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Dec/2018 - Present&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed Third-Party Supplier Cyber Risk Management Program for an oil and gas client using NIST CSF, enhancing supplier risk identification, mitigation, and monitoring, resulting in a 40% reduction in supply chain risk.&lt;/li&gt;&#xA;&lt;li&gt;Performed OT Asset Inventory analysis for a medical technology client across 21 USA sites, interviewed 15+ stakeholders, and identified critical gaps in Asset Management. Developed a detailed report with remediation recommendations for review and approval from management.&lt;/li&gt;&#xA;&lt;li&gt;Performed OT third-party risk assessment for a pharmaceutical client, evaluating over 20 vendors against ISO 27001, IEC 62443, and organizational policies, resulting in a 30% improvement in overall vendor compliance.&lt;/li&gt;&#xA;&lt;li&gt;Performed cybersecurity program maturity assessment for a healthcare industry client based on NIST CSF and CMMI model. Identified gaps that led to a 25% improvement in maturity from Level 2 to Level 3, reduced critical risks by 25%, and secured management approval for a 3-year improvement roadmap.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;information-security-analyst--mahindra-ssg&#34;&gt;Information Security Analyst | Mahindra SSG&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Oct/2016 - Oct/2018&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
