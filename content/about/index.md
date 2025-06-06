@@ -5,13 +5,13 @@ description = "10+ years of experience working as a cybersecurity professional"
 
 Hi, I'm Manojit. I've spent the last 10 years in cybersecurity helping organizations manage risk, maintain compliance, and strengthen their security posture. Currently, I work as a Cyber Risk and Strategy Consultant at Deloitte USI.
 
-This site is where I document my journey. I share notes from my studies, research and personal reflections. Write technical articles on topics I find interesting, and publish hands-on cybersecurity labs and tutorials to help others on a similar path.
+My background spans defensive cybersecurity, including incident response, threat detection, network and system security. I have also performed ISO 27001 implementation and internal audits, managed vulnerability management programs, conducted NIST CSF based assessments, along with cyber risk and maturity assessments across industry standards and regulations.
+
+Lately, I’ve been diving into threat modeling and cloud security, areas I find both challenging and rewarding.
+
+This site is where I document my journey. I share practical notes from my study and research, write technical articles about topics I find interesting, and post cybersecurity tutorials to help others on a similar path.
 
 Outside of work, I live a simple life. I enjoy traveling (something I definitely need to do more of), I like exploring new ideas and technologies, playing guitar now and then, and spending quality time with my wonderful wife and daughter.
-
-## My Core Competencies
-
-IT Governance, Risk and Compliance, ISO 27001 Implementation & Audit, NIST CSF, Vulnerability Management, Risk Management and Cyber Maturity Assessments across industry standards and regulations.
 
 ## Career
 
