@@ -95,6 +95,10 @@ html {
   scrollbar-color: var(--bg-secondary) var(--bg-primary); /* thumb track */
 }
 
+html {
+  overflow-y: scroll; /* Always show vertical scrollbar */
+}
+
 /* Scrollbar design css ends here */
 
 /* PageFind css  starts here */
@@ -109,8 +113,9 @@ textarea:focus {
   border: 2px solid var(--accent-primary);
 }
 
-html {
-  overflow-y: scroll; /* Always show vertical scrollbar */
+input[type="text"]:hover {
+  border: 2px solid var(--accent-primary);
+  cursor: text; /* Optional: shows text cursor */
 }
 
 /* PageFind css  ends here */
