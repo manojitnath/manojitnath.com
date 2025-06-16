@@ -11,7 +11,7 @@ Lately, I’ve been diving into threat modeling and cloud security, areas I find
 
 This site is where I document my journey. I share practical notes from my study and research, write technical articles about topics I find interesting, and post cybersecurity tutorials to help others on a similar path.
 
-Outside of work, I live a simple life. I enjoy traveling (something I definitely need to do more of), I like exploring new ideas and technologies, playing guitar now and then, and spending quality time with my wonderful wife and daughter.
+Outside of work, I live a simple life. I enjoy traveling, exploring new ideas and technologies, playing guitar now and then, and spending quality time with my wonderful wife and daughter.
 
 ## Career
 
