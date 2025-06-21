@@ -6,7 +6,14 @@
     <description>Recent content in Blog on Manojit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://manojitnath.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Cheat Sheet</title>
+      <link>https://manojitnath.com/blog/markdown-cheat-sheet/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://manojitnath.com/blog/markdown-cheat-sheet/</guid>
+      <description>&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;&#xA;&lt;p&gt;This post showcases common Markdown syntax elements that should be rendered correctly by Hugo and styled by your theme.&lt;/p&gt;&#xA;&lt;p&gt;Markdown supports six levels of headings. The H1 is often generated from the &lt;code&gt;title&lt;/code&gt; in the front matter by the theme&amp;rsquo;s template, so content usually starts with H2.&lt;/p&gt;&#xA;&lt;h1 id=&#34;h1-heading-rarely-used-directly-in-content&#34;&gt;H1 Heading (Rarely used directly in content)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;h2-heading&#34;&gt;H2 Heading&lt;/h2&gt;&#xA;&lt;h3 id=&#34;h3-heading&#34;&gt;H3 Heading&lt;/h3&gt;&#xA;&lt;h4 id=&#34;h4-heading&#34;&gt;H4 Heading&lt;/h4&gt;&#xA;&lt;h5 id=&#34;h5-heading&#34;&gt;H5 Heading&lt;/h5&gt;&#xA;&lt;h6 id=&#34;h6-heading&#34;&gt;H6 Heading&lt;/h6&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;paragraphs-and-text&#34;&gt;Paragraphs and Text&lt;/h2&gt;&#xA;&lt;p&gt;This is a standard paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
