@@ -13,10 +13,6 @@ This site is where I document my journey. I share practical notes from my study 
 
 Outside of work, I live a simple life. I enjoy traveling, exploring new ideas and technologies, playing guitar now and then, and spending quality time with my wonderful wife and daughter.
 
-## Career
-
-- [Work Experience - Resume]({{< ref "/resume/" >}})
-
 ## Contact
 
 Thanks for dropping by! Feel free to reach out or connect via -

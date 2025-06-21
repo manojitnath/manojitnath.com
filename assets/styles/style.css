@@ -28,6 +28,7 @@
   --font-size-h3: 1.5rem; /* Base 22px */
   --font-size-p14: 0.875rem; /* Base 14px */
   --font-size-p16: 1rem;
+  --font-size-p17: 1.0625rem;
   --font-size-p18: 1.125rem; /* Base 18px */
 
   /* --- Spacing Variables (px in name, value in rem for scaling) --- */
@@ -351,11 +352,11 @@ html.dark #themeSwitchBtn svg:last-child {
 
 .pageDescription {
   padding-bottom: var(--space-10px);
-  font-size: var(--font-size-p18);
+  font-size: var(--font-size-p17);
 }
 
 .view-all-topics {
-  font-size: var(--font-size-p18);
+  font-size: var(--font-size-p17);
   color: var(--accent-primary);
   margin-bottom: var(--space-20px);
 }
@@ -393,7 +394,7 @@ html.dark #themeSwitchBtn svg:last-child {
 
 .listItemTitle {
   padding: var(--space-5px) 0;
-  font-size: var(--font-size-p18);
+  font-size: var(--font-size-p17);
   color: var(--accent-primary);
   font-weight: 400;
 }
@@ -442,7 +443,7 @@ html.dark #themeSwitchBtn svg:last-child {
 }
 
 .heroDesc {
-  font-size: var(--font-size-p18);
+  font-size: var(--font-size-p17);
   padding-bottom: var(--space-15px);
   color: var(--text-primary);
   line-height: 1.5;
@@ -458,7 +459,7 @@ html.dark #themeSwitchBtn svg:last-child {
 
 .socialLinksTitle {
   color: var(--text-primary);
-  font-size: var(--font-size-p18);
+  font-size: var(--font-size-p17);
   line-height: 1;
   margin: 0;
   padding: 0;
@@ -512,11 +513,11 @@ html.dark #themeSwitchBtn svg:last-child {
 
 .homeSectionDesc {
   margin-bottom: var(--space-5px);
-  font-size: var(--font-size-p18);
+  font-size: var(--font-size-p17);
 }
 
 .homeSectionSeeAll {
-  font-size: var(--font-size-p18);
+  font-size: var(--font-size-p17);
   color: var(--accent-primary);
 }
 
@@ -588,14 +589,14 @@ html.dark #themeSwitchBtn svg:last-child {
 
 .singleContent p {
   margin: var(--space-20px) 0;
-  font-size: var(--font-size-p18);
+  font-size: var(--font-size-p17);
   text-align: left;
   color: var(--text-secondary);
 }
 
 .singleContent a {
   color: var(--accent-primary);
-  font-size: var(--font-size-p18);
+  font-size: var(--font-size-p17);
 }
 
 .singleContent a:hover {
@@ -705,7 +706,7 @@ blockquote {
   border-radius: 5px;
   cursor: pointer;
   font-weight: 400;
-  font-size: var(--font-size-p18);
+  font-size: var(--font-size-p17);
   font-family: "JetBrains Mono", monospace;
   padding-left: 0;
   padding-bottom: var(--space-15px);
@@ -794,7 +795,7 @@ blockquote {
 
 .termItemCount {
   /* font-size: 18px -> var */
-  font-size: var(--font-size-p18);
+  font-size: var(--font-size-p17);
   color: var(--accent-primary);
   /* border-radius: 10px -> var */
   border-radius: var(--space-10px);
@@ -813,6 +814,7 @@ blockquote {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-top: 60px;
 }
 
 .pnfTitle {
@@ -835,7 +837,7 @@ blockquote {
   /* padding: 10px 20px -> var */
   padding: var(--space-10px) var(--space-20px);
   /* font-size: 18px -> var */
-  font-size: var(--font-size-p18);
+  font-size: var(--font-size-p17);
   cursor: pointer;
 }
 
