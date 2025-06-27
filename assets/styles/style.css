@@ -451,7 +451,6 @@ html.dark #themeSwitchBtn svg:last-child {
   font-size: var(--font-size-p17);
   padding-bottom: var(--space-15px);
   color: var(--text-primary);
-  line-height: 1.5;
 }
 
 .heroSocialLinksDiv {
@@ -925,7 +924,6 @@ blockquote {
 
   .heroDesc {
     font-size: var(--font-size-p16);
-    line-height: 1.6;
   }
 
   .homeSectionDesc {
