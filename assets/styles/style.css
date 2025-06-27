@@ -130,7 +130,7 @@ input[type="text"]:hover {
 body {
   background: var(--bg-primary);
   color: var(--text-secondary);
-  font-family: 'JetBrains Mono', 'Courier New', Courier, monospace;
+  font-family: "JetBrains Mono", monospace;
 }
 
 h1,
