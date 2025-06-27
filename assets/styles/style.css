@@ -130,14 +130,23 @@ input[type="text"]:hover {
 body {
   background: var(--bg-primary);
   color: var(--text-secondary);
-  font-family: "JetBrains Mono", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+body {
 }
 
 h1,
 h2,
 h3 {
   color: var(--text-primary);
-  font-weight: 600;
+  font-weight: medium;
 }
 
 h1 {
@@ -194,7 +203,7 @@ main {
 
 .logo {
   font-size: var(--font-size-h3);
-  font-weight: 800;
+  font-weight: Bold;
   letter-spacing: 1px;
 }
 
@@ -210,7 +219,7 @@ main {
 }
 
 #navPageTitle {
-  font-weight: 400;
+  font-weight: normal;
 }
 
 #navPageTitle:hover {
@@ -284,7 +293,7 @@ main {
     gap: var(--space-20px);
     z-index: 1000;
     color: var(--accent-primary);
-    font-weight: 500;
+    font-weight: medium;
   }
 
   .links.active a {
@@ -346,7 +355,7 @@ html.dark #themeSwitchBtn svg:last-child {
 
 .siteTitlePage {
   font-size: var(--font-size-h1);
-  font-weight: 600;
+  font-weight: medium;
   margin-bottom: var(--space-5px);
 }
 
@@ -396,7 +405,7 @@ html.dark #themeSwitchBtn svg:last-child {
   padding: var(--space-5px) 0;
   font-size: var(--font-size-p17);
   color: var(--accent-primary);
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .listItemTitle:hover {
@@ -438,7 +447,7 @@ html.dark #themeSwitchBtn svg:last-child {
 
 .heroTitle {
   font-size: 2.8rem;
-  font-weight: 800;
+  font-weight: bold;
   padding: var(--space-30px) 0;
 }
 
@@ -508,7 +517,7 @@ html.dark #themeSwitchBtn svg:last-child {
 .homeSectionTitle {
   font-size: var(--font-size-h2);
   padding-bottom: var(--space-5px);
-  font-weight: 600;
+  font-weight: medium;
 }
 
 .homeSectionDesc {
@@ -705,7 +714,7 @@ blockquote {
   color: var(--text-secondary);
   border-radius: 5px;
   cursor: pointer;
-  font-weight: 400;
+  font-weight: normal;
   font-size: var(--font-size-p17);
   font-family: "JetBrains Mono", monospace;
   padding-left: 0;
@@ -802,7 +811,7 @@ blockquote {
   white-space: nowrap;
   margin: 0;
   flex-shrink: 0;
-  font-weight: 500;
+  font-weight: medium;
 }
 
 /* category Page CSS ends here */
