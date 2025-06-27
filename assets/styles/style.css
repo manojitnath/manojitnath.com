@@ -925,6 +925,7 @@ blockquote {
 
   .heroDesc {
     font-size: var(--font-size-p16);
+    line-height: 1.6;
   }
 
   .homeSectionDesc {
