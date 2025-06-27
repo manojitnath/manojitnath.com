@@ -63,9 +63,16 @@
     <!--  <link rel="stylesheet" href="{{ "styles/style.css" | relURL }}" />  -->
 
     {{/* Fonts */}}
+    <!-- Preconnect to speed up Google Fonts fetch -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Preload the stylesheet -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap">
+
+    <!-- Actual stylesheet to load the font -->
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+
 
     {{/* Title */}}
     <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
