@@ -64,6 +64,14 @@ html.dark {
   --pagefind-ui-tag: #3f4451;
 }
 
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/fonts/JetBrainsMono-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Scrollbar design css starts here */
 /* Scrollbar Track */
 ::-webkit-scrollbar {
@@ -130,8 +138,7 @@ input[type="text"]:hover {
 body {
   background: var(--bg-primary);
   color: var(--text-secondary);
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
+  font-family: "JetBrains Mono", monospace;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
@@ -711,7 +718,6 @@ blockquote {
   cursor: pointer;
   font-weight: normal;
   font-size: var(--font-size-p17);
-  font-family: "JetBrains Mono", monospace;
   padding-left: 0;
   padding-bottom: var(--space-15px);
   display: flex; /* Use flexbox to align icon and text */

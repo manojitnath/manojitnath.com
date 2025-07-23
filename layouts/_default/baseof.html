@@ -63,9 +63,9 @@
     <!--  <link rel="stylesheet" href="{{ "styles/style.css" | relURL }}" />  -->
 
     {{/* Fonts */}}
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+  
+    <link rel="preload" href="/fonts/JetBrainsMono-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+
 
     {{/* Title */}}
     <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
