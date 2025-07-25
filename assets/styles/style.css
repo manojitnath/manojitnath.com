@@ -449,9 +449,9 @@ html.dark #themeSwitchBtn svg:last-child {
 }
 
 .heroTitle {
-  font-size: 2.8rem;
+  font-size: 3.2rem;
   font-weight: bold;
-  padding: var(--space-30px) 0 var(--space-20px) 0;
+  padding: var(--space-30px) 0 var(--space-10px) 0;
 }
 
 .heroDesc {
