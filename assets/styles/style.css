@@ -345,7 +345,6 @@ html.dark #themeSwitchBtn svg:last-child {
 }
 
 /* Page Title, description Ends here */
-
 /* List Page CSS Start */
 
 .list {
@@ -355,9 +354,8 @@ html.dark #themeSwitchBtn svg:last-child {
 .listItem {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--border-color);
+  padding-bottom: var(--space-10px);
 }
-
 
 .listItemTexts {
   display: flex;
@@ -523,7 +521,7 @@ html.dark #themeSwitchBtn svg:last-child {
 .singleHeadTitle {
   font-size: var(--font-size-h1);
   padding-top: var(--space-5px);
-  padding-bottom: var(--space-20px);
+  padding-bottom: var(--space-10px);
   color: var(--accent-primary);
 }
 

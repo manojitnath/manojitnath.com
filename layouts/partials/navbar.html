@@ -5,12 +5,11 @@
   </div>
   <div class="nav-items-right">
     <div class="links" id="navLinks">
-      <!-- <a href="/notes/">Notes</a>  -->
       <div class="navTitleDiv" >
          <a id="navPageTitle" href="/blog/" class="{{ if or (eq .RelPermalink "/blog/") (hasPrefix .RelPermalink "/blog/") }}active{{ end }}">Blog</a></div>
+         
       <div class="navTitleDiv">
           <a id="navPageTitle" href="/about/" class="{{ if or (eq .RelPermalink "/about/") (hasPrefix .RelPermalink "/about/") }}active{{ end }}">About</a></div>
-      <!-- <a href="/categories/">Categories</a> -->
     </div>
 
     {{/* --- Start Hamburger --- */}}
