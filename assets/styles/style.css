@@ -175,7 +175,7 @@ a {
 }
 
 .container {
-  max-width: 48rem;
+  max-width: 768px;
   padding: 0 var(--space-15px);
   margin: auto;
   min-height: 100vh;
@@ -270,40 +270,6 @@ main {
   display: none; /* Hide menu icon when button has 'open' class */
 }
 
-/* Mobile break point */
-@media (max-width: 640px) {
-  .links {
-    display: none;
-  }
-
-  .hamburger {
-    display: flex;
-    fill: var(--text-primary);
-  }
-
-  .links.active {
-    display: flex;
-    position: fixed;
-    top: var(--space-80px); /* just under your nav */
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--bg-primary);
-    font-size: var(--font-size-h3);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: var(--space-20px);
-    z-index: 1000;
-    color: var(--accent-primary);
-    font-weight: medium;
-  }
-
-  .links.active a {
-    color: var(--text-primary);
-  }
-}
-
 /* theme toggle */
 
 #moon-svg {
@@ -389,8 +355,9 @@ html.dark #themeSwitchBtn svg:last-child {
 .listItem {
   display: flex;
   align-items: center;
-  padding-bottom: var(--space-30px);
+  border-bottom: 1px solid var(--border-color);
 }
+
 
 .listItemTexts {
   display: flex;
@@ -449,14 +416,14 @@ html.dark #themeSwitchBtn svg:last-child {
 }
 
 .heroTitle {
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: bold;
-  padding: var(--space-30px) 0 var(--space-10px) 0;
+  padding: var(--space-20px) 0 var(--space-10px) 0;
 }
 
 .heroDesc {
   font-size: var(--font-size-p17);
-  padding-bottom: var(--space-15px);
+  padding-bottom: var(--space-10px);
   color: var(--text-primary);
 }
 
@@ -519,7 +486,6 @@ html.dark #themeSwitchBtn svg:last-child {
 .homeSectionTitle {
   font-size: var(--font-size-h2);
   padding-bottom: var(--space-5px);
-  font-weight: medium;
 }
 
 .homeSectionDesc {
@@ -885,25 +851,8 @@ blockquote {
 /* Footer Ends here */
 
 /* Keep media queries in px */
-@media (max-width: 1536px) {
-  .container {
-    max-width: 768px;
-  }
-}
 
-@media (max-width: 1366px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (max-width: 1280px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (max-width: 1024px) {
+@media (max-width: 1128px) {
   .container {
     max-width: 768px;
   }
@@ -912,6 +861,40 @@ blockquote {
 @media (max-width: 768px) {
   .container {
     max-width: 640px;
+  }
+}
+
+/* Mobile break point */
+@media (max-width: 640px) {
+  .links {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    fill: var(--text-primary);
+  }
+
+  .links.active {
+    display: flex;
+    position: fixed;
+    top: var(--space-80px); /* just under your nav */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--bg-primary);
+    font-size: var(--font-size-h3);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-20px);
+    z-index: 1000;
+    color: var(--accent-primary);
+    font-weight: medium;
+  }
+
+  .links.active a {
+    color: var(--text-primary);
   }
 }
 
