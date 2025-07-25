@@ -1,6 +1,8 @@
 +++
 title = "About"
 description = "10+ years of experience working as a cybersecurity professional"
+type ="about"
+layout = "single"
 +++
 
 Hi, I'm Manojit. I've spent the last 10 years in cybersecurity helping organizations manage risk, maintain compliance, and strengthen their security posture. Currently, I work as a Cyber Risk and Strategy Consultant at Deloitte USI.
