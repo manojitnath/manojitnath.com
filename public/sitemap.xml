@@ -7,37 +7,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://manojitnath.com/categories/</loc>
-    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://manojitnath.com/categories/markdown/</loc>
-    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://manojitnath.com/blog/markdown-cheat-sheet/</loc>
-    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://manojitnath.com/</loc>
-    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://manojitnath.com/notes/</loc>
-    <lastmod>2025-04-28T12:04:42+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://manojitnath.com/notes/tryhackme-pre-security/</loc>
-    <lastmod>2025-04-28T12:04:42+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://manojitnath.com/categories/tryhackme/</loc>
     <lastmod>2025-04-28T12:04:42+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -51,10 +21,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://manojitnath.com/resume/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://manojitnath.com/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

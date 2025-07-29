@@ -4,6 +4,9 @@ title = 'Manojit'
 
 enableRobotsTXT = true
 
+[outputs]
+home = ["HTML", "RSS", "JSON", "SITEMAP", "ROBOTS"]
+
 [sitemap]
   changefreq = "weekly"
   filename = "sitemap.xml"
@@ -15,9 +18,15 @@ enableRobotsTXT = true
 [Params]
 dateFormat = "Jan 2, 2006"
 
+[params]
+  description = "Cybersecurity blog by Manojit Nath — covering GRC, Defensive Security, Cloud Security and Threat Modeling"
+
+
 # hugo.toml or config.toml
 [markup]
   [markup.tableOfContents]
     endLevel = 3    # Include headings up to H3
     ordered = false # Use <ul> instead of <ol>
     startLevel = 2  # Start with H2 headings
+
+languageCode = "en-us"
