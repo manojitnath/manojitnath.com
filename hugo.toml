@@ -2,6 +2,13 @@ baseURL = 'https://manojitnath.com/'
 languageCode = 'en-us'
 title = 'Manojit'
 
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [markup.highlight]
     noClasses = false
 

@@ -24,7 +24,7 @@
         rel="stylesheet"
         href="{{ $syntaxLight.RelPermalink }}"
         integrity="{{ $syntaxLight.Data.Integrity }}"
-      >
+      />
     {{ else }}
       {{ warnf "syntax_light.css not found." }}
     {{ end }}
@@ -39,7 +39,7 @@
         rel="stylesheet"
         href="{{ $syntaxDark.RelPermalink }}"
         integrity="{{ $syntaxDark.Data.Integrity }}"
-      >
+      />
       {{/* REMOVED disabled attribute - JS handles initial state */}}
     {{ else }}
       {{ warnf "syntax_dark.css not found." }}
@@ -54,7 +54,7 @@
         rel="stylesheet"
         href="{{ $style.RelPermalink }}"
         integrity="{{ $style.Data.Integrity }}"
-      >
+      />
     {{ else }}
       {{ warnf "Main stylesheet styles/style.css not found." }}
     {{ end }}
@@ -64,24 +64,27 @@
 
     {{/* Fonts */}}
   
-    <link rel="preload" href="/fonts/JetBrainsMono-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="/fonts/JetBrainsMono-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin="anonymous"/>
 
 
     {{/* Title */}}
     <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
 
     {{/* Favicons */}}
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
     <link rel="manifest" href="/site.webmanifest">
 
+    <link rel="canonical" href="{{ .Permalink }}">
+  
   </head>
+
   <body> {{/* Consider adding class to <html> instead if preferred */}}
     <div class="container">
       {{partial "navbar" . }}
       <!-- This is where the content of each page is inserted -->
-      <main>
+      <main role="main">
       {{ block "main" . }}{{ end }}
       </main>
       <!-- Including the footer partial -->

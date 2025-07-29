@@ -1,21 +1,31 @@
 {{ define "main" }}
 <div class="list">
-    <div class="pageHeader">
-        <h1 class="siteTitlePage">{{ .Title | default (humanize .Data.Plural) }}</h1>
-        <p class="pageDescription">Select topic to read related Articles</p>
-    </div>
-    <div class="categoryItemsWrapper">
-        <!-- Loop through categories -->
-        {{ range .Data.Terms.Alphabetical }}
-            <a href="{{ .Page.Permalink }}" class="listItemLink"> 
-                <div class="categoryDiv"> 
-                    <span class="categoryPageTitle">
-                        {{ .Page.Title }} 
-                    </span>
-                    <span class="termItemCount">{{ .Count }}</span>
-                </div>
-            </a>
-        {{ end }}
-    </div>
+  <div class="pageHeader">
+    <h1 class="siteTitlePage" id="topics-heading">
+      {{ .Title | default (humanize .Data.Plural) }}
+    </h1>
+    <p class="pageDescription">Select a topic to read related articles</p>
+  </div>
+
+  <div
+    class="categoryItemsWrapper"
+    role="list"
+    aria-labelledby="topics-heading"
+  >
+    <!-- Loop through categories/tags -->
+    {{ range .Data.Terms.Alphabetical }}
+      <a
+        href="{{ .Page.Permalink }}"
+        class="listItemLink"
+        role="listitem"
+        aria-label="View {{ .Count }} articles in {{ .Page.Title }}"
+      >
+        <div class="categoryDiv">
+          <span class="categoryPageTitle">{{ .Page.Title }}</span>
+          <span class="termItemCount">{{ .Count }}</span>
+        </div>
+      </a>
+    {{ end }}
+  </div>
 </div>
 {{ end }}

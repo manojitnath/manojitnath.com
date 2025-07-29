@@ -1,16 +1,16 @@
 {{/* layouts/partials/listItemCard.html */}}
 {{/* Expects the context (.) to be a single Page object */}}
 
-<div class="listItem">
+<div class="listItem" role="listitem">
   <div class="listItemTexts">
     <div class="listItemDetail">
       <div>
         
         <h1 class="listItemTitle">
-          <a href="{{.Permalink}}">{{.Title}}</a>
+          <a href="{{.Permalink}}" aria-label="Read blog post: {{ .Title }}" title="{{ .Title }}">{{.Title}}</a>
         </h1>
     
-        <time class="listItemDate">
+        <time class="listItemDate" datetime="{{ .Date.Format "2006-01-02" }}">
           {{ dateFormat .Site.Params.dateFormat .Date}}
         </time> 
 
@@ -27,7 +27,9 @@
        Use 'with' to safely handle posts with no categories 
       {{ with (.GetTerms "categories") }}
         {{ range . }}
-          <a class="listItemCategory" href="{{ .Permalink }}">{{ .Name }}</a>
+          <a class="listItemCategory" href="{{ .Permalink }}" aria-label="View posts in category {{ .Name }}" title="Category: {{ .Name }}">
+            {{ .Name }}
+          </a>
         {{ end }}
       {{ end }}
     </div>
