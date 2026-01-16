@@ -19,12 +19,11 @@
     {{/* --- End check --- */}}
 
     <div id="search" role="search" aria-label="Sitewide content search"></div>
-
-    <script>
-      window.addEventListener('DOMContentLoaded', () => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-      });
-    </script>
+      <script>
+        window.addEventListener('DOMContentLoaded', () => {
+          new PagefindUI({ element: "#search", showSubResults: true });
+        });
+      </script>
   </div>
 
   {{/* Filter pages: Only include items whose 'Section' is 'blog' or 'notes' or 'projects' */}}
