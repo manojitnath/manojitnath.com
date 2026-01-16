@@ -10,7 +10,7 @@ This Site is Built with:
 
 ---
 
-The Hugo code has been custom-written and tailored to my preferences. This repository is not intended to be used as a theme or starter template. However, I encourage others to take inspiration from this project and build their own personal blog :smiley:
+The Hugo code has been custom-written and tailored to my preferences. This repository is not intended to be used as a theme or starter template. However, I encourage others to take inspiration from this project and build their own personal blog
 
 ---
 
