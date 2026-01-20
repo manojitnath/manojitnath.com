@@ -64,14 +64,6 @@ html.dark {
   --pagefind-ui-tag: #3f4451;
 }
 
-@font-face {
-  font-family: "JetBrains Mono";
-  src: url("/fonts/JetBrainsMono-VariableFont_wght.ttf") format("truetype");
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
-
 /* Scrollbar design css starts here */
 /* Scrollbar Track */
 ::-webkit-scrollbar {
@@ -138,7 +130,7 @@ input[type="text"]:hover {
 body {
   background: var(--bg-primary);
   color: var(--text-secondary);
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;

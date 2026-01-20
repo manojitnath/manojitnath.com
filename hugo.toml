@@ -19,8 +19,7 @@ home = ["HTML", "RSS", "JSON", "SITEMAP", "ROBOTS"]
 dateFormat = "Jan 2, 2006"
 
 [params]
-  description = "Cybersecurity blog by Manojit Nath — covering GRC, Defensive Security, Cloud Security and Threat Modeling"
-
+  description = "Cybersecurity blog by Manojit Nath — covering GRC, Cloud Security, Threat Modeling and DevSecOps"
 
 # hugo.toml or config.toml
 [markup]
