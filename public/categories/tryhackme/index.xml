@@ -6,14 +6,14 @@
     <description>Recent content in Tryhackme on Manojit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Apr 2025 12:04:42 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/tryhackme/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Try Hack Me - Cybersecurity Refresh</title>
-      <link>http://localhost:1313/notes/tryhackme-pre-security/</link>
-      <pubDate>Mon, 28 Apr 2025 12:04:42 +0530</pubDate>
-      <guid>http://localhost:1313/notes/tryhackme-pre-security/</guid>
-      <description>&lt;p&gt;Testing my first post!&lt;/p&gt;</description>
+      <title>Why you should do TryHackMe</title>
+      <link>http://localhost:1313/notes/why-you-should-do-tryhackme/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/why-you-should-do-tryhackme/</guid>
+      <description>&lt;p&gt;Yes. Below are 30 placeholder content items — 10 blog posts, 10 notes, 10 projects — all using TOML front matter, realistic dates, overlapping categories, and short but sufficient bodies to exercise layouts without noise.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

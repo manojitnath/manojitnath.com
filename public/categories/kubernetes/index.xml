@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes on Manojit</title>
+    <link>http://localhost:1313/categories/kubernetes/</link>
+    <description>Recent content in Kubernetes on Manojit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes Defaults Favor UX</title>
+      <link>http://localhost:1313/notes/kubernetes-defaults-favor-ux/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/kubernetes-defaults-favor-ux/</guid>
+      <description>&lt;p&gt;Defaults optimize adoption, not security.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Common Kubernetes Misconfigurations That Still Matter</title>
+      <link>http://localhost:1313/blog/common-kubernetes-misconfigurations-that-still-matter/</link>
+      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/common-kubernetes-misconfigurations-that-still-matter/</guid>
+      <description>&lt;p&gt;Kubernetes prioritizes flexibility, not security.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes Defaults Are Optimized for UX, Not Security</title>
+      <link>http://localhost:1313/notes/kubernetes-defaults-are-optimized-for-ux-not-security/</link>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/kubernetes-defaults-are-optimized-for-ux-not-security/</guid>
+      <description>&lt;p&gt;Many Kubernetes defaults favor usability and flexibility.&lt;/p&gt;&#xA;&lt;p&gt;Production clusters should treat defaults as a starting point, not a baseline.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes Hardening Guide</title>
+      <link>http://localhost:1313/projects/kubernetes-hardening-guide/</link>
+      <pubDate>Sun, 14 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/kubernetes-hardening-guide/</guid>
+      <description>&lt;p&gt;Opinionated hardening recommendations.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

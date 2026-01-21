@@ -6,14 +6,77 @@
     <description>Recent content in Notes on Manojit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Apr 2025 12:04:42 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 10 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Try Hack Me - Cybersecurity Refresh</title>
-      <link>http://localhost:1313/notes/tryhackme-pre-security/</link>
-      <pubDate>Mon, 28 Apr 2025 12:04:42 +0530</pubDate>
-      <guid>http://localhost:1313/notes/tryhackme-pre-security/</guid>
-      <description>&lt;p&gt;Testing my first post!&lt;/p&gt;</description>
+      <title>AWS IAM Policy Evaluation Order (Quick Reference)</title>
+      <link>http://localhost:1313/notes/aws-iam-policy-evaluation-order-quick-reference/</link>
+      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/aws-iam-policy-evaluation-order-quick-reference/</guid>
+      <description>&lt;p&gt;IAM policy evaluation follows a strict order:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Explicit deny&lt;/li&gt;&#xA;&lt;li&gt;SCPs&lt;/li&gt;&#xA;&lt;li&gt;Resource-based policies&lt;/li&gt;&#xA;&lt;li&gt;Identity-based policies&lt;/li&gt;&#xA;&lt;li&gt;Session policies&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;When debugging access issues, always start with explicit denies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The correct AWS IAM Evaluation Order</title>
+      <link>http://localhost:1313/notes/the-correct-aws-iam-evaluation-order/</link>
+      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/the-correct-aws-iam-evaluation-order/</guid>
+      <description>&lt;p&gt;Explicit deny always wins.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes Defaults Favor UX</title>
+      <link>http://localhost:1313/notes/kubernetes-defaults-favor-ux/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/kubernetes-defaults-favor-ux/</guid>
+      <description>&lt;p&gt;Defaults optimize adoption, not security.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threat Modeling Is About Assumptions</title>
+      <link>http://localhost:1313/notes/threat-modeling-is-about-assumptions/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/threat-modeling-is-about-assumptions/</guid>
+      <description>&lt;p&gt;Assumptions matter more than diagrams.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threat Modeling Is About Assumptions, Not Diagrams</title>
+      <link>http://localhost:1313/notes/threat-modeling-is-about-assumptions-not-diagrams/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/threat-modeling-is-about-assumptions-not-diagrams/</guid>
+      <description>&lt;p&gt;Threat modeling fails when it becomes a documentation exercise.&lt;/p&gt;&#xA;&lt;p&gt;The real value is in surfacing assumptions and invalidating them early.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why you should do TryHackMe</title>
+      <link>http://localhost:1313/notes/why-you-should-do-tryhackme/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/why-you-should-do-tryhackme/</guid>
+      <description>&lt;p&gt;Yes. Below are 30 placeholder content items — 10 blog posts, 10 notes, 10 projects — all using TOML front matter, realistic dates, overlapping categories, and short but sufficient bodies to exercise layouts without noise.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloud Logging Is a Control that people misunderstand</title>
+      <link>http://localhost:1313/notes/cloud-logging-is-a-control-that-people-misunderstand/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/cloud-logging-is-a-control-that-people-misunderstand/</guid>
+      <description>&lt;p&gt;Logs only help if someone reads them.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IAM Sprawl Happens Quietly</title>
+      <link>http://localhost:1313/notes/iam-sprawl-happens-quietly/</link>
+      <pubDate>Sun, 14 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/iam-sprawl-happens-quietly/</guid>
+      <description>&lt;p&gt;Unused roles accumulate risk.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Guardrails Scale Better Than Gates</title>
+      <link>http://localhost:1313/notes/guardrails-scale-better-than-gates/</link>
+      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/guardrails-scale-better-than-gates/</guid>
+      <description>&lt;p&gt;Approvals do not scale.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes Defaults Are Optimized for UX, Not Security</title>
+      <link>http://localhost:1313/notes/kubernetes-defaults-are-optimized-for-ux-not-security/</link>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/kubernetes-defaults-are-optimized-for-ux-not-security/</guid>
+      <description>&lt;p&gt;Many Kubernetes defaults favor usability and flexibility.&lt;/p&gt;&#xA;&lt;p&gt;Production clusters should treat defaults as a starting point, not a baseline.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

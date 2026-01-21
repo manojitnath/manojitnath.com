@@ -6,14 +6,217 @@
     <description>Recent content in Welcome to Manojit&#39;s Homepage on Manojit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Apr 2025 12:04:42 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Try Hack Me - Cybersecurity Refresh</title>
-      <link>http://localhost:1313/notes/tryhackme-pre-security/</link>
-      <pubDate>Mon, 28 Apr 2025 12:04:42 +0530</pubDate>
-      <guid>http://localhost:1313/notes/tryhackme-pre-security/</guid>
-      <description>&lt;p&gt;Testing my first post!&lt;/p&gt;</description>
+      <title>Markdown Cheat Sheet</title>
+      <link>http://localhost:1313/blog/markdown-cheat-sheet/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/markdown-cheat-sheet/</guid>
+      <description>&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;&#xA;&lt;p&gt;This post showcases common Markdown syntax elements that should be rendered correctly by Hugo and styled by your theme.&lt;/p&gt;&#xA;&lt;p&gt;Markdown supports six levels of headings. The H1 is often generated from the &lt;code&gt;title&lt;/code&gt; in the front matter by the theme&amp;rsquo;s template, so content usually starts with H2.&lt;/p&gt;&#xA;&lt;h1 id=&#34;h1-heading-rarely-used-directly-in-content&#34;&gt;H1 Heading (Rarely used directly in content)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;h2-heading&#34;&gt;H2 Heading&lt;/h2&gt;&#xA;&lt;h3 id=&#34;h3-heading&#34;&gt;H3 Heading&lt;/h3&gt;&#xA;&lt;h4 id=&#34;h4-heading&#34;&gt;H4 Heading&lt;/h4&gt;&#xA;&lt;h5 id=&#34;h5-heading&#34;&gt;H5 Heading&lt;/h5&gt;&#xA;&lt;h6 id=&#34;h6-heading&#34;&gt;H6 Heading&lt;/h6&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;paragraphs-and-text&#34;&gt;Paragraphs and Text&lt;/h2&gt;&#xA;&lt;p&gt;This is a standard paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Identity Is the Real Cloud Perimeter</title>
+      <link>http://localhost:1313/blog/identity-is-the-real-cloud-perimeter/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/identity-is-the-real-cloud-perimeter/</guid>
+      <description>&lt;p&gt;Cloud architectures invalidate many assumptions of perimeter-based security.&lt;/p&gt;&#xA;&lt;p&gt;Identity is now the dominant control plane.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Identity Is the Real Perimeter in Cloud Security</title>
+      <link>http://localhost:1313/blog/why-identity-is-the-real-perimeter-in-cloud-security/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/why-identity-is-the-real-perimeter-in-cloud-security/</guid>
+      <description>&lt;p&gt;Cloud security discussions often start with networks, firewalls, and segmentation. In practice, identity has become the dominant control plane.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-shift-from-network-to-identity&#34;&gt;The Shift from Network to Identity&lt;/h2&gt;&#xA;&lt;p&gt;Cloud-native systems break many assumptions that traditional security relied on.&lt;/p&gt;&#xA;&lt;h2 id=&#34;common-iam-failure-modes&#34;&gt;Common IAM Failure Modes&lt;/h2&gt;&#xA;&lt;p&gt;Misconfigurations, over-permissive roles, and identity sprawl remain the most common causes of cloud breaches.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-to-focus-on-instead&#34;&gt;What to Focus on Instead&lt;/h2&gt;&#xA;&lt;p&gt;Security teams should prioritize identity hygiene, continuous access evaluation, and policy-as-code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AWS IAM Policy Evaluation Order (Quick Reference)</title>
+      <link>http://localhost:1313/notes/aws-iam-policy-evaluation-order-quick-reference/</link>
+      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/aws-iam-policy-evaluation-order-quick-reference/</guid>
+      <description>&lt;p&gt;IAM policy evaluation follows a strict order:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Explicit deny&lt;/li&gt;&#xA;&lt;li&gt;SCPs&lt;/li&gt;&#xA;&lt;li&gt;Resource-based policies&lt;/li&gt;&#xA;&lt;li&gt;Identity-based policies&lt;/li&gt;&#xA;&lt;li&gt;Session policies&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;When debugging access issues, always start with explicit denies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The correct AWS IAM Evaluation Order</title>
+      <link>http://localhost:1313/notes/the-correct-aws-iam-evaluation-order/</link>
+      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/the-correct-aws-iam-evaluation-order/</guid>
+      <description>&lt;p&gt;Explicit deny always wins.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes Defaults Favor UX</title>
+      <link>http://localhost:1313/notes/kubernetes-defaults-favor-ux/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/kubernetes-defaults-favor-ux/</guid>
+      <description>&lt;p&gt;Defaults optimize adoption, not security.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why DevSecOps Programs Fail in Practice</title>
+      <link>http://localhost:1313/blog/why-devseops-programs-fail-in-practice/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/why-devseops-programs-fail-in-practice/</guid>
+      <description>&lt;p&gt;Security tooling rarely fails. Incentives do.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloud Security Misconfiguration Lab</title>
+      <link>http://localhost:1313/projects/cloud-security-misconfiguration-lab/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/cloud-security-misconfiguration-lab/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A hands-on lab demonstrating common cloud security misconfigurations and their impact.&lt;/p&gt;&#xA;&lt;h2 id=&#34;focus-areas&#34;&gt;Focus Areas&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;IAM privilege escalation&lt;/li&gt;&#xA;&lt;li&gt;Public storage exposure&lt;/li&gt;&#xA;&lt;li&gt;Logging gaps&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;&#xA;&lt;p&gt;Work in progress.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threat Modeling Without Ceremony</title>
+      <link>http://localhost:1313/blog/threat-modeling-without-ceremony/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/threat-modeling-without-ceremony/</guid>
+      <description>&lt;p&gt;Most threat models fail because they optimize for documentation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DevSecOps: Why Most Implementations Fail</title>
+      <link>http://localhost:1313/blog/devsecops-why-most-implementations-fail/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/devsecops-why-most-implementations-fail/</guid>
+      <description>&lt;p&gt;DevSecOps is widely discussed but rarely implemented well.&lt;/p&gt;&#xA;&lt;p&gt;Most failures are not technical — they are organizational.&lt;/p&gt;&#xA;&lt;h2 id=&#34;security-as-a-bottleneck&#34;&gt;Security as a Bottleneck&lt;/h2&gt;&#xA;&lt;p&gt;Security teams often become reviewers instead of enablers.&lt;/p&gt;&#xA;&lt;h2 id=&#34;automation-without-ownership&#34;&gt;Automation Without Ownership&lt;/h2&gt;&#xA;&lt;p&gt;Automating broken processes only scales dysfunction.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-more-practical-model&#34;&gt;A More Practical Model&lt;/h2&gt;&#xA;&lt;p&gt;DevSecOps works when security owns guardrails, not approvals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threat Modeling Is About Assumptions</title>
+      <link>http://localhost:1313/notes/threat-modeling-is-about-assumptions/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/threat-modeling-is-about-assumptions/</guid>
+      <description>&lt;p&gt;Assumptions matter more than diagrams.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IAM Audit Checklist for NIST Compliance</title>
+      <link>http://localhost:1313/projects/iam-audit-checklist-for-nist-compliance/</link>
+      <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/iam-audit-checklist-for-nist-compliance/</guid>
+      <description>&lt;p&gt;A practical checklist for IAM reviews.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threat Modeling Is About Assumptions, Not Diagrams</title>
+      <link>http://localhost:1313/notes/threat-modeling-is-about-assumptions-not-diagrams/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/threat-modeling-is-about-assumptions-not-diagrams/</guid>
+      <description>&lt;p&gt;Threat modeling fails when it becomes a documentation exercise.&lt;/p&gt;&#xA;&lt;p&gt;The real value is in surfacing assumptions and invalidating them early.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why you should do TryHackMe</title>
+      <link>http://localhost:1313/notes/why-you-should-do-tryhackme/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/why-you-should-do-tryhackme/</guid>
+      <description>&lt;p&gt;Yes. Below are 30 placeholder content items — 10 blog posts, 10 notes, 10 projects — all using TOML front matter, realistic dates, overlapping categories, and short but sufficient bodies to exercise layouts without noise.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloud Logging Is a Control that people misunderstand</title>
+      <link>http://localhost:1313/notes/cloud-logging-is-a-control-that-people-misunderstand/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/cloud-logging-is-a-control-that-people-misunderstand/</guid>
+      <description>&lt;p&gt;Logs only help if someone reads them.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IAM Sprawl Happens Quietly</title>
+      <link>http://localhost:1313/notes/iam-sprawl-happens-quietly/</link>
+      <pubDate>Sun, 14 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/iam-sprawl-happens-quietly/</guid>
+      <description>&lt;p&gt;Unused roles accumulate risk.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DevSecOps Pipeline Reference</title>
+      <link>http://localhost:1313/projects/devsecops-pipeline-reference/</link>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/devsecops-pipeline-reference/</guid>
+      <description>&lt;p&gt;Reference CI/CD pipeline with security guardrails.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Common Kubernetes Misconfigurations That Still Matter</title>
+      <link>http://localhost:1313/blog/common-kubernetes-misconfigurations-that-still-matter/</link>
+      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/common-kubernetes-misconfigurations-that-still-matter/</guid>
+      <description>&lt;p&gt;Kubernetes prioritizes flexibility, not security.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why GRC Struggles in Cloud Environments</title>
+      <link>http://localhost:1313/blog/why-grc-struggles-in-cloud-environments/</link>
+      <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/why-grc-struggles-in-cloud-environments/</guid>
+      <description>&lt;p&gt;Static controls do not map cleanly to dynamic systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Guardrails Scale Better Than Gates</title>
+      <link>http://localhost:1313/notes/guardrails-scale-better-than-gates/</link>
+      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/guardrails-scale-better-than-gates/</guid>
+      <description>&lt;p&gt;Approvals do not scale.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practical Threat Modeling Template</title>
+      <link>http://localhost:1313/projects/practical-threat-modeling-template/</link>
+      <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/practical-threat-modeling-template/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A lightweight threat modeling template designed for engineering teams.&lt;/p&gt;&#xA;&lt;h2 id=&#34;goals&#34;&gt;Goals&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Reduce ceremony&lt;/li&gt;&#xA;&lt;li&gt;Increase signal&lt;/li&gt;&#xA;&lt;li&gt;Encourage iteration&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;&#xA;&lt;p&gt;Stable.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How Cloud Security Careers Actually Progress</title>
+      <link>http://localhost:1313/blog/how-cloud-security-careers-actually-progress/</link>
+      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/how-cloud-security-careers-actually-progress/</guid>
+      <description>&lt;p&gt;Many engineers assume cloud security careers follow a linear path. In reality, progression is uneven and highly context-dependent.&lt;/p&gt;&#xA;&lt;h2 id=&#34;early-career-breadth-over-depth&#34;&gt;Early Career: Breadth Over Depth&lt;/h2&gt;&#xA;&lt;h2 id=&#34;mid-career-decision-making-and-tradeoffs&#34;&gt;Mid Career: Decision-Making and Tradeoffs&lt;/h2&gt;&#xA;&lt;h2 id=&#34;senior-levels-risk-not-tools&#34;&gt;Senior Levels: Risk, Not Tools&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>The Hidden Cost of Over-Permissioned IAM Roles</title>
+      <link>http://localhost:1313/blog/the-hidden-cost-of-over-permissioned-iam-roles/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/the-hidden-cost-of-over-permissioned-iam-roles/</guid>
+      <description>&lt;p&gt;Privilege creep is one of the most common breach enablers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloud Logging Baseline</title>
+      <link>http://localhost:1313/projects/cloud-logging-baseline/</link>
+      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/cloud-logging-baseline/</guid>
+      <description>&lt;p&gt;Minimum viable logging requirements.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes Defaults Are Optimized for UX, Not Security</title>
+      <link>http://localhost:1313/notes/kubernetes-defaults-are-optimized-for-ux-not-security/</link>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/kubernetes-defaults-are-optimized-for-ux-not-security/</guid>
+      <description>&lt;p&gt;Many Kubernetes defaults favor usability and flexibility.&lt;/p&gt;&#xA;&lt;p&gt;Production clusters should treat defaults as a starting point, not a baseline.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes Hardening Guide</title>
+      <link>http://localhost:1313/projects/kubernetes-hardening-guide/</link>
+      <pubDate>Sun, 14 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/kubernetes-hardening-guide/</guid>
+      <description>&lt;p&gt;Opinionated hardening recommendations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GRC to Cloud Control Mapping</title>
+      <link>http://localhost:1313/projects/grc-to-cloud-control-mapping/</link>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/grc-to-cloud-control-mapping/</guid>
+      <description>&lt;p&gt;Mapping compliance to cloud-native controls.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zero Trust Reference Architecture</title>
+      <link>http://localhost:1313/projects/zero-trust-reference-architecture/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/zero-trust-reference-architecture/</guid>
+      <description>&lt;p&gt;Conceptual reference, not a product.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Security Review Playbook</title>
+      <link>http://localhost:1313/projects/security-review-playbook/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/security-review-playbook/</guid>
+      <description>&lt;p&gt;Structured approach to security reviews.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloud Security Career Roadmap</title>
+      <link>http://localhost:1313/projects/cloud-security-career-roadmap/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/cloud-security-career-roadmap/</guid>
+      <description>&lt;p&gt;Skill progression guide for practitioners.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>

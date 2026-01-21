@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Labs on Manojit</title>
+    <link>http://localhost:1313/categories/labs/</link>
+    <description>Recent content in Labs on Manojit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/labs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud Security Misconfiguration Lab</title>
+      <link>http://localhost:1313/projects/cloud-security-misconfiguration-lab/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/cloud-security-misconfiguration-lab/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A hands-on lab demonstrating common cloud security misconfigurations and their impact.&lt;/p&gt;&#xA;&lt;h2 id=&#34;focus-areas&#34;&gt;Focus Areas&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;IAM privilege escalation&lt;/li&gt;&#xA;&lt;li&gt;Public storage exposure&lt;/li&gt;&#xA;&lt;li&gt;Logging gaps&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;&#xA;&lt;p&gt;Work in progress.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

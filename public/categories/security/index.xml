@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Manojit</title>
+    <link>http://localhost:1313/categories/security/</link>
+    <description>Recent content in Security on Manojit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why DevSecOps Programs Fail in Practice</title>
+      <link>http://localhost:1313/blog/why-devseops-programs-fail-in-practice/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/why-devseops-programs-fail-in-practice/</guid>
+      <description>&lt;p&gt;Security tooling rarely fails. Incentives do.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DevSecOps: Why Most Implementations Fail</title>
+      <link>http://localhost:1313/blog/devsecops-why-most-implementations-fail/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/devsecops-why-most-implementations-fail/</guid>
+      <description>&lt;p&gt;DevSecOps is widely discussed but rarely implemented well.&lt;/p&gt;&#xA;&lt;p&gt;Most failures are not technical — they are organizational.&lt;/p&gt;&#xA;&lt;h2 id=&#34;security-as-a-bottleneck&#34;&gt;Security as a Bottleneck&lt;/h2&gt;&#xA;&lt;p&gt;Security teams often become reviewers instead of enablers.&lt;/p&gt;&#xA;&lt;h2 id=&#34;automation-without-ownership&#34;&gt;Automation Without Ownership&lt;/h2&gt;&#xA;&lt;p&gt;Automating broken processes only scales dysfunction.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-more-practical-model&#34;&gt;A More Practical Model&lt;/h2&gt;&#xA;&lt;p&gt;DevSecOps works when security owns guardrails, not approvals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Common Kubernetes Misconfigurations That Still Matter</title>
+      <link>http://localhost:1313/blog/common-kubernetes-misconfigurations-that-still-matter/</link>
+      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/common-kubernetes-misconfigurations-that-still-matter/</guid>
+      <description>&lt;p&gt;Kubernetes prioritizes flexibility, not security.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes Defaults Are Optimized for UX, Not Security</title>
+      <link>http://localhost:1313/notes/kubernetes-defaults-are-optimized-for-ux-not-security/</link>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/kubernetes-defaults-are-optimized-for-ux-not-security/</guid>
+      <description>&lt;p&gt;Many Kubernetes defaults favor usability and flexibility.&lt;/p&gt;&#xA;&lt;p&gt;Production clusters should treat defaults as a starting point, not a baseline.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Security Review Playbook</title>
+      <link>http://localhost:1313/projects/security-review-playbook/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/security-review-playbook/</guid>
+      <description>&lt;p&gt;Structured approach to security reviews.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

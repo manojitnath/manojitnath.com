@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iam on Manojit</title>
+    <link>http://localhost:1313/categories/iam/</link>
+    <description>Recent content in Iam on Manojit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/iam/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Identity Is the Real Cloud Perimeter</title>
+      <link>http://localhost:1313/blog/identity-is-the-real-cloud-perimeter/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/identity-is-the-real-cloud-perimeter/</guid>
+      <description>&lt;p&gt;Cloud architectures invalidate many assumptions of perimeter-based security.&lt;/p&gt;&#xA;&lt;p&gt;Identity is now the dominant control plane.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Identity Is the Real Perimeter in Cloud Security</title>
+      <link>http://localhost:1313/blog/why-identity-is-the-real-perimeter-in-cloud-security/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/why-identity-is-the-real-perimeter-in-cloud-security/</guid>
+      <description>&lt;p&gt;Cloud security discussions often start with networks, firewalls, and segmentation. In practice, identity has become the dominant control plane.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-shift-from-network-to-identity&#34;&gt;The Shift from Network to Identity&lt;/h2&gt;&#xA;&lt;p&gt;Cloud-native systems break many assumptions that traditional security relied on.&lt;/p&gt;&#xA;&lt;h2 id=&#34;common-iam-failure-modes&#34;&gt;Common IAM Failure Modes&lt;/h2&gt;&#xA;&lt;p&gt;Misconfigurations, over-permissive roles, and identity sprawl remain the most common causes of cloud breaches.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-to-focus-on-instead&#34;&gt;What to Focus on Instead&lt;/h2&gt;&#xA;&lt;p&gt;Security teams should prioritize identity hygiene, continuous access evaluation, and policy-as-code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AWS IAM Policy Evaluation Order (Quick Reference)</title>
+      <link>http://localhost:1313/notes/aws-iam-policy-evaluation-order-quick-reference/</link>
+      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/aws-iam-policy-evaluation-order-quick-reference/</guid>
+      <description>&lt;p&gt;IAM policy evaluation follows a strict order:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Explicit deny&lt;/li&gt;&#xA;&lt;li&gt;SCPs&lt;/li&gt;&#xA;&lt;li&gt;Resource-based policies&lt;/li&gt;&#xA;&lt;li&gt;Identity-based policies&lt;/li&gt;&#xA;&lt;li&gt;Session policies&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;When debugging access issues, always start with explicit denies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The correct AWS IAM Evaluation Order</title>
+      <link>http://localhost:1313/notes/the-correct-aws-iam-evaluation-order/</link>
+      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/the-correct-aws-iam-evaluation-order/</guid>
+      <description>&lt;p&gt;Explicit deny always wins.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IAM Audit Checklist for NIST Compliance</title>
+      <link>http://localhost:1313/projects/iam-audit-checklist-for-nist-compliance/</link>
+      <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/iam-audit-checklist-for-nist-compliance/</guid>
+      <description>&lt;p&gt;A practical checklist for IAM reviews.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IAM Sprawl Happens Quietly</title>
+      <link>http://localhost:1313/notes/iam-sprawl-happens-quietly/</link>
+      <pubDate>Sun, 14 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/iam-sprawl-happens-quietly/</guid>
+      <description>&lt;p&gt;Unused roles accumulate risk.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Hidden Cost of Over-Permissioned IAM Roles</title>
+      <link>http://localhost:1313/blog/the-hidden-cost-of-over-permissioned-iam-roles/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/the-hidden-cost-of-over-permissioned-iam-roles/</guid>
+      <description>&lt;p&gt;Privilege creep is one of the most common breach enablers.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

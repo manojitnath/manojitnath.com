@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Career on Manojit</title>
+    <link>http://localhost:1313/categories/career/</link>
+    <description>Recent content in Career on Manojit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/career/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Cloud Security Careers Actually Progress</title>
+      <link>http://localhost:1313/blog/how-cloud-security-careers-actually-progress/</link>
+      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/how-cloud-security-careers-actually-progress/</guid>
+      <description>&lt;p&gt;Many engineers assume cloud security careers follow a linear path. In reality, progression is uneven and highly context-dependent.&lt;/p&gt;&#xA;&lt;h2 id=&#34;early-career-breadth-over-depth&#34;&gt;Early Career: Breadth Over Depth&lt;/h2&gt;&#xA;&lt;h2 id=&#34;mid-career-decision-making-and-tradeoffs&#34;&gt;Mid Career: Decision-Making and Tradeoffs&lt;/h2&gt;&#xA;&lt;h2 id=&#34;senior-levels-risk-not-tools&#34;&gt;Senior Levels: Risk, Not Tools&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Cloud Security Career Roadmap</title>
+      <link>http://localhost:1313/projects/cloud-security-career-roadmap/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/cloud-security-career-roadmap/</guid>
+      <description>&lt;p&gt;Skill progression guide for practitioners.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

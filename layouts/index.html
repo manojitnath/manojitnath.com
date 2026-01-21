@@ -1,5 +1,5 @@
-{{/* layouts/index.html */}}
 {{ define "main" }}
+
 <div class="homepageWrapper" role="main" aria-label="Homepage">
   {{/* --- Hero Section --- */}}
   <section class="heroSection" aria-labelledby="hero-title">
@@ -28,31 +28,4 @@
     </div>
   </section>
 
-  {{/* --- Section for Latest 3 Blog Posts --- */}}
-  <section id="blog-homeSection" class="homeSection" aria-labelledby="blog-section-heading">
-    <div class="homeSectionItems">
-      <div class="homeSectionTitleDiv">
-        <h2 class="homeSectionTitle">Blog Posts</h2>
-        <p class="homeSectionSeeAll">
-          <a href="/blog/" aria-label="See all blog posts" title="View all blog posts">All Post -></a>
-        </p>
-      </div>
-      <p class="homeSectionDesc">Guides, references, and tutorials on cybersecurity</p>  
-    </div>
-
-    {{/* Fetch the latest 3 pages from the 'blog' section */}}
-    {{/* Use site.RegularPages to search all pages */}}
-    {{ $latestPosts := where site.RegularPages "Section" "blog" | first 3 }}
-    {{ if $latestPosts }}
-      <div class="latest-posts-list" role="list"> {{/* Wrapper for the list */}}
-        {{ range $latestPosts }}
-          {{/* Call the SAME partial */}}
-          {{ partial "listItemCard.html" . }}
-        {{ end }}
-      </div>
-    {{ else }}
-      <p>No recent blog posts found.</p>
-    {{ end }}
-  </section>
-</div>
 {{ end }}

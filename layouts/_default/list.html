@@ -1,33 +1,27 @@
-{{/* layouts/_default/list.html */}}
 {{ define "main" }}
+
 <div class="list">
-  <!-- section to show _index.md title and description -->
   <div class="pageHeader">
+
     <h1 class="siteTitlePage">{{ .Title }}</h1>
 
     {{ with .Params.description }}
       <p class="pageDescription">{{ . }}</p>
     {{ end }}
 
-    {{/* --- Check if NOT categories page before showing link --- */}}
+    {{/* --- Checks whether the page is categories page or not, if NOT categories page then view all topics is shown, view all topics will not be shown in categories page --- */}}
+
     {{ $isCategoriesPage := eq .Permalink "/categories/" }}
     {{ if not $isCategoriesPage }}
       <p class="view-all-topics">
         <a href="/categories/" aria-label="View all categories">View all Topics</a>
       </p>
     {{ end }}
+    
     {{/* --- End check --- */}}
 
-    <div id="search" role="search" aria-label="Sitewide content search"></div>
-      <script>
-        window.addEventListener('DOMContentLoaded', () => {
-          new PagefindUI({ element: "#search", showSubResults: true });
-        });
-      </script>
-  </div>
-
   {{/* Filter pages: Only include items whose 'Section' is 'blog' or 'notes' or 'projects' */}}
-  {{ $pagesToList := where .Paginator.Pages "Section" "in" (slice "blog" "notes") }}
+  {{ $pagesToList := where .Paginator.Pages "Section" "in" (slice "blog" "notes" "projects") }}
 
   {{/* Loop over the filtered list */}}
   {{ range $pagesToList }}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Threat-Modeling on Manojit</title>
+    <link>http://localhost:1313/categories/threat-modeling/</link>
+    <description>Recent content in Threat-Modeling on Manojit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/threat-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Threat Modeling Without Ceremony</title>
+      <link>http://localhost:1313/blog/threat-modeling-without-ceremony/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/threat-modeling-without-ceremony/</guid>
+      <description>&lt;p&gt;Most threat models fail because they optimize for documentation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threat Modeling Is About Assumptions</title>
+      <link>http://localhost:1313/notes/threat-modeling-is-about-assumptions/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/threat-modeling-is-about-assumptions/</guid>
+      <description>&lt;p&gt;Assumptions matter more than diagrams.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threat Modeling Is About Assumptions, Not Diagrams</title>
+      <link>http://localhost:1313/notes/threat-modeling-is-about-assumptions-not-diagrams/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/threat-modeling-is-about-assumptions-not-diagrams/</guid>
+      <description>&lt;p&gt;Threat modeling fails when it becomes a documentation exercise.&lt;/p&gt;&#xA;&lt;p&gt;The real value is in surfacing assumptions and invalidating them early.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practical Threat Modeling Template</title>
+      <link>http://localhost:1313/projects/practical-threat-modeling-template/</link>
+      <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/practical-threat-modeling-template/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A lightweight threat modeling template designed for engineering teams.&lt;/p&gt;&#xA;&lt;h2 id=&#34;goals&#34;&gt;Goals&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Reduce ceremony&lt;/li&gt;&#xA;&lt;li&gt;Increase signal&lt;/li&gt;&#xA;&lt;li&gt;Encourage iteration&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;&#xA;&lt;p&gt;Stable.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

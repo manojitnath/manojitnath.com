@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud-Security on Manojit</title>
+    <link>http://localhost:1313/categories/cloud-security/</link>
+    <description>Recent content in Cloud-Security on Manojit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/cloud-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Identity Is the Real Cloud Perimeter</title>
+      <link>http://localhost:1313/blog/identity-is-the-real-cloud-perimeter/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/identity-is-the-real-cloud-perimeter/</guid>
+      <description>&lt;p&gt;Cloud architectures invalidate many assumptions of perimeter-based security.&lt;/p&gt;&#xA;&lt;p&gt;Identity is now the dominant control plane.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Identity Is the Real Perimeter in Cloud Security</title>
+      <link>http://localhost:1313/blog/why-identity-is-the-real-perimeter-in-cloud-security/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/why-identity-is-the-real-perimeter-in-cloud-security/</guid>
+      <description>&lt;p&gt;Cloud security discussions often start with networks, firewalls, and segmentation. In practice, identity has become the dominant control plane.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-shift-from-network-to-identity&#34;&gt;The Shift from Network to Identity&lt;/h2&gt;&#xA;&lt;p&gt;Cloud-native systems break many assumptions that traditional security relied on.&lt;/p&gt;&#xA;&lt;h2 id=&#34;common-iam-failure-modes&#34;&gt;Common IAM Failure Modes&lt;/h2&gt;&#xA;&lt;p&gt;Misconfigurations, over-permissive roles, and identity sprawl remain the most common causes of cloud breaches.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-to-focus-on-instead&#34;&gt;What to Focus on Instead&lt;/h2&gt;&#xA;&lt;p&gt;Security teams should prioritize identity hygiene, continuous access evaluation, and policy-as-code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloud Security Misconfiguration Lab</title>
+      <link>http://localhost:1313/projects/cloud-security-misconfiguration-lab/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/cloud-security-misconfiguration-lab/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A hands-on lab demonstrating common cloud security misconfigurations and their impact.&lt;/p&gt;&#xA;&lt;h2 id=&#34;focus-areas&#34;&gt;Focus Areas&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;IAM privilege escalation&lt;/li&gt;&#xA;&lt;li&gt;Public storage exposure&lt;/li&gt;&#xA;&lt;li&gt;Logging gaps&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;&#xA;&lt;p&gt;Work in progress.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloud Logging Is a Control that people misunderstand</title>
+      <link>http://localhost:1313/notes/cloud-logging-is-a-control-that-people-misunderstand/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/cloud-logging-is-a-control-that-people-misunderstand/</guid>
+      <description>&lt;p&gt;Logs only help if someone reads them.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why GRC Struggles in Cloud Environments</title>
+      <link>http://localhost:1313/blog/why-grc-struggles-in-cloud-environments/</link>
+      <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/why-grc-struggles-in-cloud-environments/</guid>
+      <description>&lt;p&gt;Static controls do not map cleanly to dynamic systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How Cloud Security Careers Actually Progress</title>
+      <link>http://localhost:1313/blog/how-cloud-security-careers-actually-progress/</link>
+      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/how-cloud-security-careers-actually-progress/</guid>
+      <description>&lt;p&gt;Many engineers assume cloud security careers follow a linear path. In reality, progression is uneven and highly context-dependent.&lt;/p&gt;&#xA;&lt;h2 id=&#34;early-career-breadth-over-depth&#34;&gt;Early Career: Breadth Over Depth&lt;/h2&gt;&#xA;&lt;h2 id=&#34;mid-career-decision-making-and-tradeoffs&#34;&gt;Mid Career: Decision-Making and Tradeoffs&lt;/h2&gt;&#xA;&lt;h2 id=&#34;senior-levels-risk-not-tools&#34;&gt;Senior Levels: Risk, Not Tools&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>The Hidden Cost of Over-Permissioned IAM Roles</title>
+      <link>http://localhost:1313/blog/the-hidden-cost-of-over-permissioned-iam-roles/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/the-hidden-cost-of-over-permissioned-iam-roles/</guid>
+      <description>&lt;p&gt;Privilege creep is one of the most common breach enablers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloud Logging Baseline</title>
+      <link>http://localhost:1313/projects/cloud-logging-baseline/</link>
+      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/cloud-logging-baseline/</guid>
+      <description>&lt;p&gt;Minimum viable logging requirements.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
