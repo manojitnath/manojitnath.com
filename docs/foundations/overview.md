@@ -1,5 +1,8 @@
 ---
+title: Foundations Overview
 icon: lucide/book
+hide:
+  - footer
 ---
 
 # Foundations

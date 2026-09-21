@@ -1,6 +1,8 @@
 ---
 title: About Me
 icon: lucide/user-round
+hide:
+  - footer
 ---
 
 # 👋 Hi, I’m Manojit
