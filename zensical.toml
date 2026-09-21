@@ -16,13 +16,12 @@ nav = [
     { "Overview" = "foundations/overview.md" },
 
     { "Linux" = [   
-      { "1. Basics & Filesystem" = [
-        { "01 - Intro to Linux" = "foundations/linux/01.md" },
-        { "02 - Paths & Navigation" = "foundations/linux/02.md" },
-        { "03 - Listing Files" = "foundations/linux/03.md" },
-        { "04 - Reading Files" = "foundations/linux/04.md" },
-        { "05 - Managing Files" = "foundations/linux/05.md" },
+      { "Basics & Filesystem" = [
+        { "Intro to Linux" = "foundations/linux/01-basics-and-filesystem/01-intro-to-linux.md" },
+        { "Paths & Navigation" = "foundations/linux/01-basics-and-filesystem/02-paths-and-navigation.md"" },
+        { "Listing Files" = "foundations/linux/01-basics-and-filesystem/03-listing-files.md"" },
       ]},
+
       { "2. Text & Permissions" = [
         { "06 - Searching Text" = "foundations/linux/06.md" },
         { "07 - Editing Files" = "foundations/linux/07.md" },
