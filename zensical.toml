@@ -1,0 +1,190 @@
+[project]
+site_url = "https://www.example.com/"
+site_name = "Manojit"
+# site_description = "Your project description"
+site_author = "manojit nath"
+
+copyright = "Copyright &copy; 2026 manojitnath"
+
+repo_url = "https://github.com/manojitnath"
+repo_name = "GitHub"
+# edit_uri = "edit/main/docs/"
+
+nav = [
+  # 1. FOUNDATIONS TAB
+  { "Foundations" = [
+    { "Overview" = "foundations/overview.md" },
+
+    { "Linux" = [   
+      { "1. Basics & Filesystem" = [
+        { "01 - Intro to Linux" = "foundations/linux/01.md" },
+        { "02 - Paths & Navigation" = "foundations/linux/02.md" },
+        { "03 - Listing Files" = "foundations/linux/03.md" },
+        { "04 - Reading Files" = "foundations/linux/04.md" },
+        { "05 - Managing Files" = "foundations/linux/05.md" },
+      ]},
+      { "2. Text & Permissions" = [
+        { "06 - Searching Text" = "foundations/linux/06.md" },
+        { "07 - Editing Files" = "foundations/linux/07.md" },
+        { "08 - Users & Permissions" = "foundations/linux/08.md" },
+      ]},
+      { "3. Processes & Services" = [
+        { "09 - Processes" = "foundations/linux/09.md" },
+        { "10 - systemd Services" = "foundations/linux/10.md" },
+        { "11 - Networking Essentials" = "foundations/linux/11.md" },
+      ]},
+      { "4. System Administration" = [
+        { "12 - Package Management" = "foundations/linux/12.md" },
+        { "13 - Disks & Filesystems" = "foundations/linux/13.md" },
+        { "14 - Monitoring & Perf" = "foundations/linux/14.md" },
+        { "15 - Scheduled Jobs" = "foundations/linux/15.md" },
+      ]},
+      { "5. Advanced Tools" = [
+        { "16 - Shell Configuration" = "foundations/linux/16.md" },
+        { "17 - Text Processing" = "foundations/linux/17.md" },
+        { "18 - Links" = "foundations/linux/18.md" },
+        { "19 - Archives & Compression" = "foundations/linux/19.md" },
+      ]},
+      { "6. Capstone Projects" = [
+        { "Project 1" = "foundations/linux/20-project1.md" },
+        { "Project 2" = "foundations/linux/21-project2.md" },
+        { "Project 3" = "foundations/linux/22-project3.md" },
+      ]},
+    ]},
+
+    
+  ]},
+
+  # 2. PROJECTS TAB
+  { "Projects" = [
+  { "Overview" = "projects/overview.md" },  
+
+    { "Linux" = [
+      { "Secure a Linux Server" = [
+            { "Setup the server" = "projects/linux/secure-a-linux-server.md" },
+      ]}
+    ]},
+
+  ]},
+
+  # 3. ABOUT ME TAB
+  { "About me" = [
+    "about/about-me.md",
+  ]},
+]
+
+extra_css = ["stylesheets/style.css"]
+# extra_javascript = ["javascripts/extra.js"]
+
+[project.theme]
+# variant = "classic"
+# custom_dir = "overrides"
+# favicon = "images/favicon.png"
+language = "en"
+features = [
+  "announce.dismiss",
+  # "content.action.edit",
+  # "content.action.view",
+  "content.code.annotate",
+  "content.code.copy",
+  "content.code.select",
+  "content.footnote.tooltips",
+  "content.tabs.link",
+  "content.tooltips",
+  # "header.autohide",
+  # "navigation.expand",
+  "navigation.footer",
+  # "navigation.indexes",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.instant.progress",
+  # "navigation.path",
+  # "navigation.prune",
+  # "navigation.sections",
+  "navigation.tabs",
+  # "navigation.tabs.sticky",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+  "toc.follow",
+  # "toc.integrate",
+]
+[project.theme.icon]
+repo = "fontawesome/brands/github"
+
+logo = "lucide/shield"
+
+# [project.theme.icon]
+# logo = "lucide/smile"
+
+# [project.theme.font]
+text = "Inter"
+code = "Jetbrains Mono"
+
+# 1. Light Mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "indigo"
+accent = "blue"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+# 2. Dark Mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "blue"
+accent = "cyan"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/manojitnath"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/linkedin"
+link = "https://www.linkedin.com/in/manojitnath/"
+
+# [[project.extra.social]]
+# icon = "fontawesome/brands/mastodon"
+# link = "https://fosstodon.org/@user"
+
+[project.markdown_extensions]
+abbr = {}
+admonition = {}
+attr_list = {}
+def_list = {}
+footnotes = {}
+md_in_html = {}
+toc.permalink = true
+pymdownx.arithmatex.generic = true
+pymdownx.betterem = {}
+pymdownx.caret = {}
+pymdownx.details = {}
+pymdownx.emoji.emoji_generator = "zensical.extensions.emoji.to_svg"
+pymdownx.emoji.emoji_index = "zensical.extensions.emoji.twemoji"
+pymdownx.highlight.anchor_linenums = true
+pymdownx.highlight.line_spans = "__span"
+pymdownx.highlight.pygments_lang_class = true
+pymdownx.inlinehilite = {}
+pymdownx.keys = {}
+pymdownx.magiclink = {}
+pymdownx.mark = {}
+pymdownx.smartsymbols = {}
+# pymdownx.snippets.base_path = "includes"
+pymdownx.superfences.custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
+pymdownx.tabbed.alternate_style = true
+pymdownx.tabbed.combine_header_slug = true
+pymdownx.tasklist.custom_checkbox = true
+pymdownx.tilde = {}
+
+[[project.markdown_extensions.zensical.extensions.preview.configurations]]
+targets.include = [
+  "customization.md",
+  "compatibility/markdown/*",
+]
