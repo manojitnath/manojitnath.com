@@ -16,39 +16,13 @@ nav = [
     { "Overview" = "foundations/overview.md" },
 
     { "Linux" = [   
+     
       { "Basics & Filesystem" = [
         { "Intro to Linux" = "foundations/linux/01-basics-and-filesystem/01-intro-to-linux.md" },
-        { "Paths & Navigation" = "foundations/linux/01-basics-and-filesystem/02-paths-and-navigation.md"" },
-        { "Listing Files" = "foundations/linux/01-basics-and-filesystem/03-listing-files.md"" },
+        { "Paths & Navigation" = "foundations/linux/01-basics-and-filesystem/02-paths-and-navigation.md" },
+        { "Listing Files" = "foundations/linux/01-basics-and-filesystem/03-listing-files.md" },
       ]},
 
-      { "2. Text & Permissions" = [
-        { "06 - Searching Text" = "foundations/linux/06.md" },
-        { "07 - Editing Files" = "foundations/linux/07.md" },
-        { "08 - Users & Permissions" = "foundations/linux/08.md" },
-      ]},
-      { "3. Processes & Services" = [
-        { "09 - Processes" = "foundations/linux/09.md" },
-        { "10 - systemd Services" = "foundations/linux/10.md" },
-        { "11 - Networking Essentials" = "foundations/linux/11.md" },
-      ]},
-      { "4. System Administration" = [
-        { "12 - Package Management" = "foundations/linux/12.md" },
-        { "13 - Disks & Filesystems" = "foundations/linux/13.md" },
-        { "14 - Monitoring & Perf" = "foundations/linux/14.md" },
-        { "15 - Scheduled Jobs" = "foundations/linux/15.md" },
-      ]},
-      { "5. Advanced Tools" = [
-        { "16 - Shell Configuration" = "foundations/linux/16.md" },
-        { "17 - Text Processing" = "foundations/linux/17.md" },
-        { "18 - Links" = "foundations/linux/18.md" },
-        { "19 - Archives & Compression" = "foundations/linux/19.md" },
-      ]},
-      { "6. Capstone Projects" = [
-        { "Project 1" = "foundations/linux/20-project1.md" },
-        { "Project 2" = "foundations/linux/21-project2.md" },
-        { "Project 3" = "foundations/linux/22-project3.md" },
-      ]},
     ]},
 
     
