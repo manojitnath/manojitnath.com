@@ -1,8 +1,8 @@
 [project]
-site_url = "https://www.example.com/"
+site_url = "https://www.manojitnath.com/"
 site_name = "Manojit"
-# site_description = "Your project description"
-site_author = "manojit nath"
+site_description = "Manojit's technical blog & knowledge base"
+site_author = "Manojit Nath"
 
 copyright = "Copyright &copy; 2026 manojitnath"
 
@@ -15,17 +15,14 @@ nav = [
   { "Foundations" = [
     { "Overview" = "foundations/overview.md" },
 
-    { "Linux" = [   
-     
-      { "Basics & Filesystem" = [
-        { "Intro to Linux" = "foundations/linux/01-basics-and-filesystem/01-intro-to-linux.md" },
-        { "Paths & Navigation" = "foundations/linux/01-basics-and-filesystem/02-paths-and-navigation.md" },
-        { "Listing Files" = "foundations/linux/01-basics-and-filesystem/03-listing-files.md" },
-      ]},
+    { "Linux" = [    
+     { "Overview" = "foundations/linux/00-overview.md" },
+     { "Basics & Files" = "foundations/linux/01-basics-and-files.md" },
+     { "Users & Processes" = "foundations/linux/02-users-and-processes.md" },
+     { "Admin & Networks" = "foundations/linux/03-admin-and-networks.md" },
+     { "Automation & Tools" = "foundations/linux/04-automation-and-tools.md" },
+     ]},
 
-    ]},
-
-    
   ]},
 
   # 2. PROJECTS TAB
@@ -33,12 +30,10 @@ nav = [
   { "Overview" = "projects/overview.md" },  
 
     { "Linux" = [
-      { "Secure a Linux Server" = [
-            { "Setup the server" = "projects/linux/secure-a-linux-server.md" },
+      { "Secure a Linux Server" = "projects/linux/secure-a-linux-server.md" },
+      { "Setup Web & DNS" = "projects/linux/setup-web-and-dns.md" },
       ]}
     ]},
-
-  ]},
 
   # 3. ABOUT ME TAB
   { "About me" = [
@@ -52,7 +47,7 @@ extra_css = ["stylesheets/style.css"]
 [project.theme]
 # variant = "classic"
 # custom_dir = "overrides"
-# favicon = "images/favicon.png"
+favicon = "images/favicon.png"
 language = "en"
 features = [
   "announce.dismiss",
@@ -73,7 +68,7 @@ features = [
   "navigation.instant.progress",
   # "navigation.path",
   # "navigation.prune",
-  # "navigation.sections",
+  "navigation.sections",
   "navigation.tabs",
   # "navigation.tabs.sticky",
   "navigation.top",
@@ -84,11 +79,7 @@ features = [
 ]
 [project.theme.icon]
 repo = "fontawesome/brands/github"
-
-logo = "lucide/shield"
-
-# [project.theme.icon]
-# logo = "lucide/smile"
+logo = "lucide/bot"
 
 # [project.theme.font]
 text = "Inter"

@@ -1,6 +1,6 @@
 ---
 title: Foundations Overview
-icon: lucide/book
+icon: lucide/bookmark-check
 hide:
   - footer
 ---

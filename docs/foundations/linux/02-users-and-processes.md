@@ -1,5 +1,5 @@
 ---
 title: Path & Navigation
-icon: lucide/folder-tree
+icon: lucide/user-shield
 ---
 # Paths & Navigation

@@ -1,5 +1,5 @@
 /* 1. Target ONLY the Header Site Logo */
 .md-header__button.md-logo .lucide,
 .md-header__button.md-logo svg {
-  color: #38bdf8 !important;
+  color: #068fff !important;
 }

@@ -1,11 +1,11 @@
 ---
 title: About Me
-icon: lucide/user-round
+icon: lucide/user-star
 hide:
   - footer
 ---
 
-# 👋 Hi, I’m Manojit
+# Hey, I’m Manojit
 
 **`Senior Consultant – Cyber Risk, Strategy & Transformation`**
 
@@ -15,58 +15,19 @@ I am currently expanding my focus onto cloud security architecture, DevSecOps, a
 
 ---
 
-## 🎓 Certifications
+## Certifications
 
-[![CISSP Badge](../assets/logos/cissp.png){ width="110" .cert-badge }](https://www.credly.com/badges/8d48a7c7-dfff-4f5d-ac73-6e9a875d2808/public_url)
-[![CISM Badge](../assets/logos/cism.png){ width="110" .cert-badge }](https://www.credly.com/badges/97ecb02a-87e6-459e-9f12-ec15bb67b704/public_url)
-[![SC 900](../assets/logos/sc900.png){ width="110" .cert-badge }](https://learn.microsoft.com/en-us/users/manojitnath-5303/credentials/b98f61174257f80e?ref=https%3A%2F%2Fwww.linkedin.com%2F)
-[![ISO 27001](../assets/logos/iso27001.png){ width="110" .cert-badge }](https://www.linkedin.com/in/manojitnath/details/certifications/)
-
-<!--
-<p>
-<a href="https://www.credly.com/badges/8d48a7c7-dfff-4f5d-ac73-6e9a875d2808/public_url" target="_blank"><img alt="CISSP" src="https://img.shields.io/badge/CISSP--ISC2-2f6e56?style=for-the-badge" /></a>
-<a href="https://www.credly.com/badges/97ecb02a-87e6-459e-9f12-ec15bb67b704/public_url" target="_blank"><img alt="CISM" src="https://img.shields.io/badge/CISM--ISACA-7db455?style=for-the-badge" /></a>
-<a href="https://www.linkedin.com/in/manojitnath/details/certifications/" target="_blank"><img alt="ISO/IEC 27001 Lead Auditor" src="https://img.shields.io/badge/ISO%2FIEC%2027001%20Lead%20Auditor-2253a0?style=for-the-badge" /></a>
-<a href="https://learn.microsoft.com/en-us/users/manojitnath-5303/credentials/b98f61174257f80e?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank"><img alt="SC-900" src="https://img.shields.io/badge/SC%20900--Microsoft%20Security-2962af?style=for-the-badge" /></a>
-<a href="https://www.credly.com/badges/6500e575-2623-4ab2-85d0-df3aed2471b1/linked_in_profile" target="_blank"><img alt="Industry Proficiency Foundation – Financial Services" src="https://img.shields.io/badge/Industry%20Proficiency%20Financial%20Services--Deloitte-438948?style=for-the-badge" /></a>
-</p>
--->
+[![CISSP Badge](images/cissp.png){ width="110" .cert-badge }](https://www.credly.com/badges/8d48a7c7-dfff-4f5d-ac73-6e9a875d2808/public_url)
+[![CISM Badge](images/cism.png){ width="110" .cert-badge }](https://www.credly.com/badges/97ecb02a-87e6-459e-9f12-ec15bb67b704/public_url)
+[![SC 900](images/sc900.png){ width="110" .cert-badge }](https://learn.microsoft.com/en-us/users/manojitnath-5303/credentials/b98f61174257f80e?ref=https%3A%2F%2Fwww.linkedin.com%2F)
+[![ISO 27001](images/iso27001.png){ width="110" .cert-badge }](https://www.linkedin.com/in/manojitnath/details/certifications/)
 
 ---
 
-## 🔐 Featured Security Projects
+## Elsewhere {#elsewhere}
 
-Projects that reflect my approach to designing secure architectures and risk-informed systems.
+[![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/manojitnath)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manojitnath/)
+[![Substack](https://img.shields.io/badge/Substack-%23FF6719.svg?style=for-the-badge&logo=substack&logoColor=white)](https://theriskmatrix.substack.com/)
 
-<ul>
-<li><a href="https://github.com/manojitnath/risk-to-controls-mapping">Risk-to-Control Mapping</a><br/><i>ISO 27001, NIST CSF, Risk Management — Mapping business and technical risks to security controls to identify coverage gaps and support risk-informed decision-making.</i></li>
-<li><a href="https://github.com/manojitnath/security-architecture-reviews">Security Architecture Reviews</a><br/><i>Security Architecture, Risk Assessment — Risk-focused reviews of system and vendor architectures evaluating trust boundaries, control adequacy, and alignment to security objectives.</i></li>
-<li><a href="https://github.com/manojitnath/cyber-maturity-assessments">Cybersecurity Maturity Assessments</a><br/><i>NIST CSF, Maturity Models — Cyber maturity assessments highlighting current-state gaps and priority improvement areas across people, process, and technology.</i></li>
-</ul>
-
----
-
-## 📝 Recent Writing
-
-<ul>
-  <li><a href="https://theriskmatrix.substack.com/p/placeholder-1">Risk-Based Thinking in Cloud Security Architecture</a><br/><i>Applying risk management principles to cloud-native system design and trust boundaries.</i></li>
-  <li><a href="https://theriskmatrix.substack.com/p/placeholder-2">Bridging GRC and DevSecOps: A Practitioner's View</a><br/><i>How governance, risk, and compliance integrate with modern DevSecOps workflows.</i></li>
-  <li><a href="https://theriskmatrix.substack.com/p/placeholder-3">Threat Modeling for Enterprise Security Programs</a><br/><i>Practical approaches to integrating threat modeling into existing security programs.</i></li>
-  <li><a href="https://theriskmatrix.substack.com/p/placeholder-4">Third-Party Risk Management Beyond Questionnaires</a><br/><i>Moving from checkbox compliance to risk-informed vendor assessments.</i></li>
-</ul>
-
-<p>→ <a href="https://theriskmatrix.substack.com/">View all articles</a></p>
-
----
-
-## 🌐 Elsewhere
-
-<p>
-  <a href="https://github.com/manojitnath"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/manojitnath/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://theriskmatrix.substack.com/"><img alt="Substack" src="https://img.shields.io/badge/Substack-%23006f5c.svg?style=for-the-badge&logo=substack&logoColor=FF6719" /></a>
-</p>
-
----
-
-Disclaimer - All opinions and work shared here are my own and do not represent any past, current, or future employer.
+> **Disclaimer:** All opinions and work shared here are my own and do not represent any past, current, or future employer.

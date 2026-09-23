@@ -1,6 +1,6 @@
 ---
 title: Project Overview
-icon: lucide/folder-open
+icon: lucide/bookmark-check
 hide:
   - footer
 ---
