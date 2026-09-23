@@ -1,0 +1,15 @@
+# Build output — Cloudflare rebuilds this itself, never commit it
+site/
+
+# Zensical build cache
+.cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+
+# python environment
+.venv/
