@@ -1,6 +1,8 @@
 ---
 title: linux module overview
 icon: lucide/file-sliders
+tags:
+  - linux
 ---
 
 # Linux Foundations Overview

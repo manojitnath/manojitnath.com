@@ -1,15 +1,15 @@
 ---
 draft: false
+title: CISSP Certification Guide
+slug: cissp-certification-guide
 date: 2026-09-22
-title: Hello World
-slug: hello-world
 categories:
-  - hello
+  - certifications
 authors:
   - mono
 ---
 
-# Hello world!
+# CISSP Certification Guide!
 
 This introduction is shown in blog views.
 

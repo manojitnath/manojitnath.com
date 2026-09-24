@@ -15,7 +15,7 @@ I am currently expanding my focus onto cloud security architecture, DevSecOps, a
 
 ---
 
-## Certifications
+## My Certifications
 
 [![CISSP Badge](images/cissp.png){ width="110" .cert-badge }](https://www.credly.com/badges/8d48a7c7-dfff-4f5d-ac73-6e9a875d2808/public_url)
 [![CISM Badge](images/cism.png){ width="110" .cert-badge }](https://www.credly.com/badges/97ecb02a-87e6-459e-9f12-ec15bb67b704/public_url)
@@ -24,7 +24,7 @@ I am currently expanding my focus onto cloud security architecture, DevSecOps, a
 
 ---
 
-## Elsewhere {#elsewhere}
+## Socials
 
 [![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/manojitnath)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manojitnath/)

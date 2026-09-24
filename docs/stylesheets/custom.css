@@ -1,0 +1,79 @@
+/* ---------------------------------------------------
+   1. CONTAINER RESET & POST SPACING
+--------------------------------------------------- */
+/* Remove MkDocs default card backgrounds and set gap between posts */
+.md-post--excerpt,
+.astro-post {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin-bottom: 1.5rem !important;
+}
+
+/* ---------------------------------------------------
+   2. POST TITLE
+--------------------------------------------------- */
+.astro-title {
+  font-size: 0.85rem !important;
+  font-weight: 500 !important;
+  margin: 0 0 0.15rem 0 !important; /* Tightened gap above Date */
+  line-height: 1.35;
+}
+
+.astro-title a {
+  color: var(--md-typeset-a-color);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.astro-title a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--md-typeset-a-color);
+}
+
+/* ---------------------------------------------------
+   3. POST DATE
+--------------------------------------------------- */
+.astro-date {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+  font-style: italic;
+  margin-bottom: 0.35rem !important; /* Tightened gap before Excerpt */
+}
+
+.astro-date svg {
+  opacity: 0.7;
+}
+
+/* ---------------------------------------------------
+   4. EXCERPT & CLEANUP HACKS
+--------------------------------------------------- */
+.astro-excerpt {
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color);
+  line-height: 1.6;
+}
+
+/* Strip paragraph margins inside excerpt to prevent extra line height */
+.astro-excerpt p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Hide default "Continue Reading" button */
+.md-post--excerpt .md-post__action {
+  display: none !important;
+}
+
+/* Hide auto-injected MkDocs headings from inside the excerpt */
+.astro-excerpt h1,
+.astro-excerpt h2,
+.astro-excerpt h3 {
+  display: none !important;
+}

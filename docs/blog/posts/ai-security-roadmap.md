@@ -1,15 +1,13 @@
 ---
 draft: false
 date: 2026-09-22
-title: Hello World
-slug: hello-world
+title: AI Security Roadmap
+slug: ai-security-roadmap
 categories:
-  - hello
+  - ai security
 authors:
   - mono
 ---
-
-# Hello world!
 
 This introduction is shown in blog views.
 

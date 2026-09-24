@@ -1,5 +1,5 @@
 ---
-title: Foundations Overview
+title: Overview
 icon: lucide/bookmark-check
 hide:
   - footer

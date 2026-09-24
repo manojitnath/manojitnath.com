@@ -4,8 +4,8 @@ site_name = "Manojit"
 site_description = "Manojit's technical blog & knowledge base"
 site_author = "Manojit Nath"
 copyright = "Copyright &copy; 2026 manojitnath"
-repo_url = "https://github.com/manojitnath"
-repo_name = "GitHub"
+# repo_url = "https://github.com/manojitnath"
+# repo_name = "GitHub"
 # edit_uri = "edit/main/docs/"
 
 
@@ -42,12 +42,16 @@ nav = [
   ]},
 ]
 
-extra_css = ["stylesheets/style.css"]
+extra_css = [
+  "stylesheets/style.css",
+  "stylesheets/custom.css" 
+]
+
 # extra_javascript = ["javascripts/extra.js"]
 
 [project.theme]
 # variant = "classic"
-# custom_dir = "overrides"
+custom_dir = "overrides"
 favicon = "images/favicon.png"
 language = "en"
 features = [
@@ -155,3 +159,8 @@ targets.include = [
 ]
 
 [project.plugins.blog]
+
+[project.plugins.tags]
+
+[project.extra.tags]
+default = "lucide/hash"
