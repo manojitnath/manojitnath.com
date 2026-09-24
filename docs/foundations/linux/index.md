@@ -1,11 +1,11 @@
 ---
-title: linux module overview
-icon: lucide/file-sliders
+title: Start here
+icon: lucide/chevrons-right
 tags:
   - linux
 ---
 
-# Linux Foundations Overview
+# Linux Module
 
 Welcome to the Linux Foundations module. This hands-on path takes you from basic terminal navigation to managing system services, user security, and shell automation.
 

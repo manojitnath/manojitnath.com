@@ -15,7 +15,7 @@
    2. POST TITLE
 --------------------------------------------------- */
 .astro-title {
-  font-size: 0.85rem !important;
+  font-size: 0.9rem !important;
   font-weight: 500 !important;
   margin: 0 0 0.15rem 0 !important; /* Tightened gap above Date */
   line-height: 1.35;

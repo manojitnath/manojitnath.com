@@ -8,39 +8,45 @@ copyright = "Copyright &copy; 2026 manojitnath"
 # repo_name = "GitHub"
 # edit_uri = "edit/main/docs/"
 
-
+# --------nav start------
 nav = [
-  { "Blog" = ["blog/index.md"] },
 
-  # 1. FOUNDATIONS TAB
-  { "Foundations" = [
-    { "Overview" = "foundations/overview.md" },
-
-    { "Linux" = [    
-     { "Overview" = "foundations/linux/00-overview.md" },
-     { "Basics & Files" = "foundations/linux/01-basics-and-files.md" },
-     { "Users & Processes" = "foundations/linux/02-users-and-processes.md" },
-     { "Admin & Networks" = "foundations/linux/03-admin-and-networks.md" },
-     { "Automation & Tools" = "foundations/linux/04-automation-and-tools.md" },
-     ]},
-
+  # Home-page nav
+  { "Home" = [
+    { "Overview" = "index.md" },
   ]},
 
-  # 2. PROJECTS TAB
-  { "Projects" = [
-  { "Overview" = "projects/overview.md" },  
+  # Blog-page nav
+  { "Blog" = ["blog/index.md"] },
 
+  # Foundation-page nav
+  { "Foundations" = [
+    { "Foundations" = "foundations/index.md" },
+    { "Linux" = [
+        "foundations/linux/index.md",  # If navigation.indexes is ON
+        { "Basics & Files" = "foundations/linux/01-basics-and-files.md" },
+        { "Users & Processes" = "foundations/linux/02-users-and-processes.md" },
+        { "Admin & Networks" = "foundations/linux/03-admin-and-networks.md" },
+        { "Automation & Tools" = "foundations/linux/04-automation-and-tools.md" },
+    ]},
+  ]},
+
+  # Projects-page nav
+  { "Projects" = [
+  { "Projects" = "projects/index.md" },  
     { "Linux" = [
       { "Secure a Linux Server" = "projects/linux/secure-a-linux-server.md" },
       { "Setup Web & DNS" = "projects/linux/setup-web-and-dns.md" },
-      ]}
-    ]},
-
-  # 3. ABOUT ME TAB
-  { "About me" = [
-    "about/about-me.md",
+      ]},
   ]},
-]
+
+  # About Me-page nav
+  { "About me" = [
+   { "Hello" = "about/about-me.md" },
+   { "Resume" = "about/resume.md" },
+  ]},
+] 
+# --------nav end------
 
 extra_css = [
   "stylesheets/style.css",
@@ -71,7 +77,7 @@ features = [
   "navigation.instant",
   "navigation.instant.prefetch",
   "navigation.instant.progress",
-  # "navigation.path",
+  "navigation.path",
   # "navigation.prune",
   "navigation.sections",
   "navigation.tabs",

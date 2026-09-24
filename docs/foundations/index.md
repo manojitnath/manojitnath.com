@@ -1,6 +1,6 @@
 ---
 title: Overview
-icon: lucide/bookmark-check
+icon: lucide/cuboid
 hide:
   - footer
 ---
