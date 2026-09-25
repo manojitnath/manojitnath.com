@@ -3,8 +3,10 @@ title: About Me
 icon: lucide/user-star
 hide:
   - footer
+  - toc
 ---
 
+<div style="max-width: 34.4rem; " markdown>
 # Hey, I’m Manojit
 
 **`Senior Consultant – Cyber Risk, Strategy & Transformation`**
@@ -31,3 +33,5 @@ I am currently expanding my focus onto cloud security architecture, DevSecOps, a
 [![Substack](https://img.shields.io/badge/Substack-%23FF6719.svg?style=for-the-badge&logo=substack&logoColor=white)](https://theriskmatrix.substack.com/)
 
 > **Disclaimer:** All opinions and work shared here are my own and do not represent any past, current, or future employer.
+
+</div>

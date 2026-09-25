@@ -1,9 +1,16 @@
 ---
 title: Home
-
+hide:
+  - footer
+  - toc
+  - navigation
 ---
 
+<div class="homepage-wrapper" style="max-width: 34.4rem; margin: 0 auto; padding: 0 0 2rem 0;" markdown>
+
 # This is home
+
+Welcome to my Digital Garden. This text is now centered!
 
 ## **F**undamentals
 
@@ -40,5 +47,7 @@ title: Home
     Workflows, commit signed verification, CI/CD pipelines, and secret scanning.
 
     [:octicons-arrow-right-24: View Notes](/)
+
+</div>
 
 </div>

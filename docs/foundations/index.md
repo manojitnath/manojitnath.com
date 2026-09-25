@@ -3,8 +3,9 @@ title: Overview
 icon: lucide/cuboid
 hide:
   - footer
+  - toc
 ---
-
+<div style="max-width: 34.4rem; " markdown>
 # Foundations
 
 Welcome to the Foundations knowledge base. This section covers core computing and infrastructure principles necessary for Cloud, DevOps, and Security engineering.
@@ -21,3 +22,5 @@ Welcome to the Foundations knowledge base. This section covers core computing an
 
 - **[📦 Version Control](/)**  
   Git workflows, branching strategies, rebase vs. merge, and GitHub pull requests.
+
+</div>
